@@ -25,7 +25,7 @@ export const usePalsData = () => {
     loadData();
   }, []);
 
-  const getPalById = (id: number): PalData | undefined => {
+  const getPalById = (id: number | string): PalData | undefined => {
     return pals.find((pal) => pal.id == id);
   };
 
