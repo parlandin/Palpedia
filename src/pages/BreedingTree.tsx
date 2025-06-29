@@ -52,7 +52,7 @@ export const BreedingTree = () => {
 
         <div className={styles.selectionSection}>
           <div className={styles.selectorGroup}>
-            <h4>Pal Base (Opcional)</h4>
+            <h4>Pal Base </h4>
             <p className={styles.selectorHint}>
               Pals que você já possui e quer usar como base
             </p>
