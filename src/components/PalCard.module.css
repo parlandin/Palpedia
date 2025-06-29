@@ -1,0 +1,290 @@
+.palCard {
+  width: 280px;
+  background: var(--bg-glass);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  transition: all 0.3s ease;
+  border: 1px solid var(--border-primary);
+}
+
+.palCard:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--accent-primary);
+}
+
+.palImage {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  background: var(--bg-secondary);
+  border-radius: 6px 6px 0 0;
+}
+
+.palContent {
+  padding: 1rem;
+}
+
+.palHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}
+
+.palName {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.palId {
+  background: var(--accent-primary);
+  color: white;
+  padding: 0.2rem 0.6rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.palElements {
+  margin-bottom: 0.8rem;
+}
+
+.elementTag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.2rem 0.6rem;
+  margin: 0.1rem;
+  border-radius: 15px;
+  font-size: 0.7rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.elementIcon {
+  width: 14px;
+  height: 14px;
+  object-fit: contain;
+  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.3));
+}
+
+/* Element colors */
+.elementneutral {
+  background: #95a5a6;
+  color: white;
+}
+
+.elementfire {
+  background: #e74c3c;
+  color: white;
+}
+
+.elementwater {
+  background: #3498db;
+  color: white;
+}
+
+.elementgrass {
+  background: #27ae60;
+  color: white;
+}
+
+.elementelectric {
+  background: #f1c40f;
+  color: #333;
+}
+
+.elementice {
+  background: #85c1e9;
+  color: #333;
+}
+
+.elementground {
+  background: #d4ac0d;
+  color: white;
+}
+
+.elementflying {
+  background: #85c1e9;
+  color: #333;
+}
+
+.elementpsychic {
+  background: #e91e63;
+  color: white;
+}
+
+.elementbug {
+  background: #8bc34a;
+  color: white;
+}
+
+.elementrock {
+  background: #795548;
+  color: white;
+}
+
+.elementghost {
+  background: #673ab7;
+  color: white;
+}
+
+.elementdragon {
+  background: #9c27b0;
+  color: white;
+}
+
+.elementdark {
+  background: #424242;
+  color: white;
+}
+
+.elementsteel {
+  background: #607d8b;
+  color: white;
+}
+
+.elementfairy {
+  background: #f8bbd9;
+  color: #333;
+}
+
+.workSkills {
+  margin-bottom: 0.8rem;
+}
+
+.workSkills h4 {
+  color: var(--text-primary);
+  margin-bottom: 0.4rem;
+  font-size: 0.9rem;
+}
+
+.skillItem {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  background: var(--bg-secondary);
+  padding: 0.15rem 0.5rem;
+  margin: 0.05rem;
+  border-radius: 8px;
+  font-size: 0.7rem;
+  color: var(--text-primary);
+  border: 1px solid var(--border-primary);
+}
+
+.skillIcon {
+  width: 12px;
+  height: 12px;
+  object-fit: contain;
+}
+
+.drops {
+  margin-bottom: 0.8rem;
+}
+
+.drops h4 {
+  color: var(--text-primary);
+  margin-bottom: 0.4rem;
+  font-size: 0.9rem;
+}
+
+.dropItem {
+  display: inline-block;
+  background: var(--bg-secondary);
+  padding: 0.15rem 0.5rem;
+  margin: 0.05rem;
+  border-radius: 8px;
+  font-size: 0.7rem;
+  color: var(--text-primary);
+  border: 1px solid var(--border-primary);
+}
+
+.breedingRank {
+  text-align: center;
+  padding: 0.4rem;
+  background: var(--bg-glass);
+  border-radius: 8px;
+  margin-bottom: 0.8rem;
+  font-size: 0.9rem;
+  color: var(--text-primary);
+  border: 1px solid var(--border-primary);
+}
+
+.wikiLink {
+  display: block;
+  text-align: center;
+  background: var(--accent-primary);
+  color: white;
+  padding: 0.6rem;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+}
+
+.wikiLink:hover {
+  background: #0891b2;
+  transform: translateY(-2px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .palCard {
+    width: 280px;
+    /* Maintain fixed width on mobile */
+  }
+
+  .palContent {
+    padding: 0.8rem;
+  }
+
+  .palName {
+    font-size: 1.1rem;
+  }
+
+  .palId {
+    font-size: 0.75rem;
+    padding: 0.15rem 0.5rem;
+  }
+
+  .elementTag {
+    font-size: 0.65rem;
+    padding: 0.15rem 0.5rem;
+  }
+
+  .skillItem {
+    font-size: 0.65rem;
+    padding: 0.1rem 0.4rem;
+  }
+
+  .workSkills h4,
+  .drops h4 {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .palCard {
+    width: 260px;
+    /* Slightly smaller for very small screens */
+  }
+
+  .palContent {
+    padding: 0.6rem;
+  }
+
+  .palHeader {
+    margin-bottom: 0.6rem;
+  }
+
+  .palElements,
+  .workSkills,
+  .drops {
+    margin-bottom: 0.6rem;
+  }
+}

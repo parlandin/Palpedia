@@ -1,0 +1,345 @@
+.selectorContainer {
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+/* Botão principal do seletor */
+.selectButton {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 2px solid var(--border-primary);
+  border-radius: 8px;
+  background: var(--bg-glass);
+  backdrop-filter: blur(10px);
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.selectButton:hover {
+  border-color: var(--border-secondary);
+  background: var(--bg-secondary);
+}
+
+.selectButton:focus {
+  outline: none;
+  border-color: var(--accent-primary);
+  box-shadow: 0 0 0 3px rgba(6, 182, 212, 0.2);
+}
+
+.selectedPalPreview {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+}
+
+.selectedPalImage {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  object-fit: cover;
+  background: var(--bg-secondary);
+}
+
+.selectedPalName {
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+.placeholder {
+  color: var(--text-muted);
+}
+
+.dropdownIcon {
+  color: var(--text-muted);
+  font-size: 12px;
+  transition: transform 0.2s ease;
+}
+
+/* Modal */
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(6px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.modal {
+  position: relative;
+  background: var(--bg-secondary);
+  backdrop-filter: blur(25px);
+  border-radius: 16px;
+  border: 1px solid var(--border-primary);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.7);
+  width: 100%;
+  max-width: 500px;
+  max-height: 80vh;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  z-index: 10000;
+  transform: translateZ(0);
+}
+
+.modalHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 24px;
+  border-bottom: 1px solid var(--border-primary);
+}
+
+.modalHeader h3 {
+  margin: 0;
+  color: var(--text-primary);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.closeButton {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 24px;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.closeButton:hover {
+  color: var(--text-primary);
+  background: var(--bg-glass);
+}
+
+/* Campo de pesquisa */
+.searchContainer {
+  padding: 20px 24px 16px;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 2px solid var(--border-primary);
+  border-radius: 8px;
+  background: var(--bg-glass);
+  backdrop-filter: blur(10px);
+  color: var(--text-primary);
+  transition: all 0.3s ease;
+}
+
+.searchInput::placeholder {
+  color: var(--text-muted);
+}
+
+.searchInput:focus {
+  outline: none;
+  border-color: var(--accent-primary);
+  box-shadow: 0 0 0 3px rgba(6, 182, 212, 0.2);
+}
+
+/* Lista de Pals */
+.palList {
+  flex: 1;
+  overflow-y: auto;
+  padding: 0 24px 20px;
+}
+
+.palItem {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  margin-bottom: 8px;
+  border: none;
+  border-radius: 8px;
+  background: var(--bg-glass);
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: left;
+}
+
+.palItem:hover {
+  background: var(--bg-tertiary);
+  transform: translateY(-1px);
+}
+
+.palItem.selected {
+  background: rgba(6, 182, 212, 0.2);
+  border: 1px solid rgba(6, 182, 212, 0.4);
+}
+
+.clearOption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+.palItemImage {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  object-fit: cover;
+  background: var(--bg-secondary);
+  flex-shrink: 0;
+}
+
+.palItemDetails {
+  flex: 1;
+  min-width: 0;
+}
+
+.palItemName {
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+
+.palItemRank {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-bottom: 2px;
+}
+
+.palItemElements {
+  font-size: 13px;
+  color: var(--text-muted);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.elementTag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  padding: 0.1rem 0.4rem;
+  border-radius: 8px;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: var(--bg-glass);
+  color: var(--text-secondary);
+  border: 1px solid var(--border-primary);
+}
+
+.elementIcon {
+  width: 12px;
+  height: 12px;
+  object-fit: contain;
+}
+
+.noPalsFound {
+  text-align: center;
+  padding: 40px;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* Informações do Pal selecionado (mantido para compatibilidade) */
+.palInfo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  margin-top: 0.5rem;
+  background: var(--bg-glass);
+  border-radius: 8px;
+  border: 1px solid var(--border-primary);
+  backdrop-filter: blur(10px);
+}
+
+.palImage {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  object-fit: cover;
+  background: var(--bg-secondary);
+}
+
+.palDetails {
+  flex: 1;
+}
+
+.palName {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  margin-bottom: 0.3rem;
+}
+
+.palRank {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.2rem;
+}
+
+.palElements {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+@media (max-width: 768px) {
+  .modalOverlay {
+    padding: 10px;
+  }
+
+  .modal {
+    margin: 0;
+    max-height: 95vh;
+    max-width: 100%;
+    min-height: 350px;
+  }
+
+  .modalHeader {
+    padding: 16px 20px;
+  }
+
+  .searchContainer {
+    padding: 16px 20px 12px;
+  }
+
+  .palList {
+    padding: 0 20px 16px;
+  }
+
+  .palItemImage {
+    width: 40px;
+    height: 40px;
+  }
+
+  .palInfo {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .palImage {
+    width: 50px;
+    height: 50px;
+  }
+}

@@ -1,0 +1,5280 @@
+[
+  {
+    "id": "001",
+    "name": "Lamball",
+    "picture": "https://palworld.wiki.gg/images/thumb/e/ee/Lamball_icon.png/300px-Lamball_icon.png",
+    "element": [
+      "Neutral"
+    ],
+    "work_suitability": {
+      "handiwork": 1,
+      "transporting": 1,
+      "farming": 1
+    },
+    "drops": [
+      "Wool",
+      "Lamball Mutton"
+    ],
+    "breeding_rank": 1470,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Lamball",
+    "local_icon": "public/300px-Lamball_icon.png",
+    "combi_duplicate_priority": 7500000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "002",
+    "name": "Cattiva",
+    "picture": "https://palworld.wiki.gg/images/thumb/6/6d/Cattiva_icon.png/300px-Cattiva_icon.png",
+    "element": [
+      "Neutral"
+    ],
+    "work_suitability": {
+      "handiwork": 1,
+      "gathering": 1,
+      "mining": 1,
+      "transporting": 1
+    },
+    "drops": [
+      "Red Berries"
+    ],
+    "breeding_rank": 1460,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Cattiva",
+    "local_icon": "public/300px-Cattiva_icon.png",
+    "combi_duplicate_priority": 7310000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "003",
+    "name": "Chikipi",
+    "picture": "https://palworld.wiki.gg/images/thumb/5/54/Chikipi_icon.png/300px-Chikipi_icon.png",
+    "element": [
+      "Neutral"
+    ],
+    "work_suitability": {
+      "gathering": 1,
+      "farming": 1
+    },
+    "drops": [
+      "Egg",
+      "Chikipi Poultry"
+    ],
+    "breeding_rank": 1500,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Chikipi",
+    "local_icon": "public/300px-Chikipi_icon.png",
+    "combi_duplicate_priority": 7140000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "004",
+    "name": "Lifmunk",
+    "picture": "https://palworld.wiki.gg/images/thumb/8/89/Lifmunk_icon.png/300px-Lifmunk_icon.png",
+    "element": [
+      "Grass"
+    ],
+    "work_suitability": {
+      "planting": 1,
+      "handiwork": 1,
+      "lumbering": 1,
+      "medicine_production": 1,
+      "gathering": 1
+    },
+    "drops": [
+      "Berry Seeds",
+      "Low Grade Medical Supplies"
+    ],
+    "breeding_rank": 1430,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Lifmunk",
+    "local_icon": "public/300px-Lifmunk_icon.png",
+    "combi_duplicate_priority": 7710000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "005",
+    "name": "Foxparks",
+    "picture": "https://palworld.wiki.gg/images/thumb/0/0e/Foxparks_icon.png/300px-Foxparks_icon.png",
+    "element": [
+      "Fire"
+    ],
+    "work_suitability": {
+      "kindling": 1
+    },
+    "drops": [
+      "Leather",
+      "Flame Organ"
+    ],
+    "breeding_rank": 1400,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Foxparks",
+    "local_icon": "public/300px-Foxparks_icon.png",
+    "combi_duplicate_priority": 7570000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "005B",
+    "name": "Foxparks Cryst",
+    "picture": "https://palworld.wiki.gg/images/thumb/b/b0/Foxparks_Cryst_icon.png/300px-Foxparks_Cryst_icon.png",
+    "element": [
+      "Ice"
+    ],
+    "work_suitability": {
+      "cooling": 1
+    },
+    "drops": [],
+    "breeding_rank": 1305,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Foxparks_Cryst",
+    "local_icon": "public/300px-Foxparks_Cryst_icon.png",
+    "combi_duplicate_priority": 5430000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Foxparks",
+        "id": "005"
+      },
+      {
+        "name": "Foxcicle",
+        "id": "057"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "006",
+    "name": "Fuack",
+    "picture": "https://palworld.wiki.gg/images/thumb/a/ab/Fuack_icon.png/300px-Fuack_icon.png",
+    "element": [
+      "Water"
+    ],
+    "work_suitability": {
+      "handiwork": 1,
+      "transporting": 1,
+      "watering": 1
+    },
+    "drops": [
+      "Leather",
+      "Pal Fluids"
+    ],
+    "breeding_rank": 1330,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Fuack",
+    "local_icon": "public/300px-Fuack_icon.png",
+    "combi_duplicate_priority": 7180000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "006B",
+    "name": "Fuack Ignis",
+    "picture": "https://palworld.wiki.gg/images/thumb/d/d3/Fuack_Ignis_icon.png/300px-Fuack_Ignis_icon.png",
+    "element": [
+      "Water",
+      "Fire"
+    ],
+    "work_suitability": {
+      "kindling": 1,
+      "watering": 1,
+      "handiwork": 1,
+      "transporting": 1
+    },
+    "drops": [],
+    "breeding_rank": 1290,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Fuack_Ignis",
+    "local_icon": "public/300px-Fuack_Ignis_icon.png",
+    "combi_duplicate_priority": 575,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Fuack",
+        "id": "006"
+      },
+      {
+        "name": "Flambelle",
+        "id": "070"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "007",
+    "name": "Sparkit",
+    "picture": "https://palworld.wiki.gg/images/thumb/5/56/Sparkit_icon.png/300px-Sparkit_icon.png",
+    "element": [
+      "Electric"
+    ],
+    "work_suitability": {
+      "generating_electricity": 1,
+      "handiwork": 1,
+      "transporting": 1
+    },
+    "drops": [
+      "Electric Organ"
+    ],
+    "breeding_rank": 1410,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Sparkit",
+    "local_icon": "public/300px-Sparkit_icon.png",
+    "combi_duplicate_priority": 7110000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "008",
+    "name": "Tanzee",
+    "picture": "https://palworld.wiki.gg/images/thumb/d/dd/Tanzee_icon.png/300px-Tanzee_icon.png",
+    "element": [
+      "Grass"
+    ],
+    "work_suitability": {
+      "planting": 1,
+      "handiwork": 1,
+      "gathering": 1,
+      "lumbering": 1,
+      "transporting": 1
+    },
+    "drops": [
+      "Mushroom"
+    ],
+    "breeding_rank": 1250,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Tanzee",
+    "local_icon": "public/300px-Tanzee_icon.png",
+    "combi_duplicate_priority": 6670000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "009",
+    "name": "Rooby",
+    "picture": "https://palworld.wiki.gg/images/thumb/b/b2/Rooby_icon.png/300px-Rooby_icon.png",
+    "element": [
+      "Fire"
+    ],
+    "work_suitability": {
+      "kindling": 1
+    },
+    "drops": [
+      "Flame Organ",
+      "Leather"
+    ],
+    "breeding_rank": 1155,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Rooby",
+    "local_icon": "public/300px-Rooby_icon.png",
+    "combi_duplicate_priority": 6280000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "010",
+    "name": "Pengullet",
+    "picture": "https://palworld.wiki.gg/images/thumb/5/5f/Pengullet_icon.png/300px-Pengullet_icon.png",
+    "element": [
+      "Water",
+      "Ice"
+    ],
+    "work_suitability": {
+      "watering": 1,
+      "handiwork": 1,
+      "cooling": 1,
+      "transporting": 1
+    },
+    "drops": [
+      "Ice Organ",
+      "Pal Fluids"
+    ],
+    "breeding_rank": 1350,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Pengullet",
+    "local_icon": "public/300px-Pengullet_icon.png",
+    "combi_duplicate_priority": 7540000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "010B",
+    "name": "Pengullet Lux",
+    "picture": "https://palworld.wiki.gg/images/thumb/6/6a/Pengullet_Lux_icon.png/300px-Pengullet_Lux_icon.png",
+    "element": [
+      "Water",
+      "Ice"
+    ],
+    "work_suitability": {
+      "watering": 1,
+      "generating_electricity": 2,
+      "handiwork": 1,
+      "transporting": 1
+    },
+    "drops": [],
+    "breeding_rank": 1310,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Pengullet_Lux",
+    "local_icon": "public/300px-Pengullet_Lux_icon.png",
+    "combi_duplicate_priority": 572,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Pengullet",
+        "id": "010"
+      },
+      {
+        "name": "Sparkit",
+        "id": "007"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "011",
+    "name": "Penking",
+    "picture": "https://palworld.wiki.gg/images/thumb/d/de/Penking_icon.png/300px-Penking_icon.png",
+    "element": [
+      "Water",
+      "Ice"
+    ],
+    "work_suitability": {
+      "watering": 2,
+      "handiwork": 2,
+      "mining": 2,
+      "cooling": 2,
+      "transporting": 2
+    },
+    "drops": [
+      "Ice Organ",
+      "Penking Plume"
+    ],
+    "breeding_rank": 520,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Penking",
+    "local_icon": "public/300px-Penking_icon.png",
+    "combi_duplicate_priority": 6490000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "011B",
+    "name": "Penking Lux",
+    "picture": "https://palworld.wiki.gg/images/thumb/2/26/Penking_Lux_icon.png/300px-Penking_Lux_icon.png",
+    "element": [
+      "Water",
+      "Electric"
+    ],
+    "work_suitability": {
+      "watering": 2,
+      "generating_electricity": 2,
+      "handiwork": 2,
+      "mining": 2,
+      "transporting": 2
+    },
+    "drops": [],
+    "breeding_rank": 490,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Penking_Lux",
+    "local_icon": "public/300px-Penking_Lux_icon.png",
+    "combi_duplicate_priority": 573,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Penking",
+        "id": "011"
+      },
+      {
+        "name": "Rayhound",
+        "id": "060"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "012",
+    "name": "Jolthog",
+    "picture": "https://palworld.wiki.gg/images/thumb/1/12/Jolthog_icon.png/300px-Jolthog_icon.png",
+    "element": [
+      "Electric"
+    ],
+    "work_suitability": {
+      "generating_electricity": 1
+    },
+    "drops": [
+      "Electric Organ"
+    ],
+    "breeding_rank": 1370,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Jolthog",
+    "local_icon": "public/300px-Jolthog_icon.png",
+    "combi_duplicate_priority": 7600000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "012B",
+    "name": "Jolthog Cryst",
+    "picture": "https://palworld.wiki.gg/images/thumb/b/b7/Jolthog_Cryst_icon.png/300px-Jolthog_Cryst_icon.png",
+    "element": [
+      "Ice"
+    ],
+    "work_suitability": {
+      "cooling": 1
+    },
+    "drops": [
+      "Ice Organ"
+    ],
+    "breeding_rank": 1360,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Jolthog_Cryst",
+    "local_icon": "public/300px-Jolthog_Cryst_icon.png",
+    "combi_duplicate_priority": 7590000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Jolthog",
+        "id": "012"
+      },
+      {
+        "name": "Pengullet",
+        "id": "010"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "013",
+    "name": "Gumoss",
+    "picture": "https://palworld.wiki.gg/images/thumb/d/d1/Gumoss_icon.png/300px-Gumoss_icon.png",
+    "element": [
+      "Grass",
+      "Ground"
+    ],
+    "work_suitability": {
+      "planting": 1
+    },
+    "drops": [
+      "Berry Seeds",
+      "Gumoss Leaf"
+    ],
+    "breeding_rank": 1240,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Gumoss",
+    "local_icon": "public/300px-Gumoss_icon.png",
+    "combi_duplicate_priority": 6620000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "013B",
+    "name": "Gumoss (Special)",
+    "picture": "https://palworld.wiki.gg/images/thumb/d/d1/Gumoss_icon.png/300px-Gumoss_icon.png",
+    "element": [
+      "Grass",
+      "Ground"
+    ],
+    "work_suitability": {
+      "planting": 1
+    },
+    "drops": [],
+    "breeding_rank": 1240,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Gumoss_(Special)",
+    "local_icon": "public/300px-Gumoss_icon.png",
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "014",
+    "name": "Vixy",
+    "picture": "https://palworld.wiki.gg/images/thumb/f/f6/Vixy_icon.png/300px-Vixy_icon.png",
+    "element": [
+      "Neutral"
+    ],
+    "work_suitability": {
+      "gathering": 1,
+      "farming": 1
+    },
+    "drops": [
+      "Leather",
+      "Bone"
+    ],
+    "breeding_rank": 1450,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Vixy",
+    "local_icon": "public/300px-Vixy_icon.png",
+    "combi_duplicate_priority": 6960000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "015",
+    "name": "Hoocrates",
+    "picture": "https://palworld.wiki.gg/images/thumb/d/de/Hoocrates_icon.png/300px-Hoocrates_icon.png",
+    "element": [
+      "Dark"
+    ],
+    "work_suitability": {
+      "gathering": 1
+    },
+    "drops": [
+      "Fiber",
+      "High Grade Technical Manual"
+    ],
+    "breeding_rank": 1390,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Hoocrates",
+    "local_icon": "public/300px-Hoocrates_icon.png",
+    "combi_duplicate_priority": 6920000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "016",
+    "name": "Teafant",
+    "picture": "https://palworld.wiki.gg/images/thumb/0/09/Teafant_icon.png/300px-Teafant_icon.png",
+    "element": [
+      "Water"
+    ],
+    "work_suitability": {
+      "watering": 1
+    },
+    "drops": [
+      "Pal Fluids"
+    ],
+    "breeding_rank": 1490,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Teafant",
+    "local_icon": "public/300px-Teafant_icon.png",
+    "combi_duplicate_priority": 7640000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "017",
+    "name": "Depresso",
+    "picture": "https://palworld.wiki.gg/images/thumb/5/52/Depresso_icon.png/300px-Depresso_icon.png",
+    "element": [
+      "Dark"
+    ],
+    "work_suitability": {
+      "handiwork": 1,
+      "transporting": 1,
+      "mining": 1
+    },
+    "drops": [
+      "Venom Gland"
+    ],
+    "breeding_rank": 1380,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Depresso",
+    "local_icon": "public/300px-Depresso_icon.png",
+    "combi_duplicate_priority": 7300000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "018",
+    "name": "Cremis",
+    "picture": "https://palworld.wiki.gg/images/thumb/c/c9/Cremis_icon.png/300px-Cremis_icon.png",
+    "element": [
+      "Neutral"
+    ],
+    "work_suitability": {
+      "gathering": 1,
+      "farming": 1
+    },
+    "drops": [
+      "Wool"
+    ],
+    "breeding_rank": 1455,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Cremis",
+    "local_icon": "public/300px-Cremis_icon.png",
+    "combi_duplicate_priority": 6310000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "019",
+    "name": "Daedream",
+    "picture": "https://palworld.wiki.gg/images/thumb/4/43/Daedream_icon.png/300px-Daedream_icon.png",
+    "element": [
+      "Dark"
+    ],
+    "work_suitability": {
+      "handiwork": 1,
+      "transporting": 1,
+      "gathering": 1
+    },
+    "drops": [
+      "Venom Gland",
+      "Small Pal Soul"
+    ],
+    "breeding_rank": 1230,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Daedream",
+    "local_icon": "public/300px-Daedream_icon.png",
+    "combi_duplicate_priority": 6680000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "020",
+    "name": "Rushoar",
+    "picture": "https://palworld.wiki.gg/images/thumb/1/18/Rushoar_icon.png/300px-Rushoar_icon.png",
+    "element": [
+      "Ground"
+    ],
+    "work_suitability": {
+      "mining": 1
+    },
+    "drops": [
+      "Rushoar Pork",
+      "Leather",
+      "Bone"
+    ],
+    "breeding_rank": 1130,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Rushoar",
+    "local_icon": "public/300px-Rushoar_icon.png",
+    "combi_duplicate_priority": 7720000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "021",
+    "name": "Nox",
+    "picture": "https://palworld.wiki.gg/images/thumb/d/d4/Nox_icon.png/300px-Nox_icon.png",
+    "element": [
+      "Dark"
+    ],
+    "work_suitability": {
+      "gathering": 1
+    },
+    "drops": [
+      "Leather",
+      "Small Pal Soul"
+    ],
+    "breeding_rank": 1180,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Nox",
+    "local_icon": "public/300px-Nox_icon.png",
+    "combi_duplicate_priority": 6500000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "022",
+    "name": "Fuddler",
+    "picture": "https://palworld.wiki.gg/images/thumb/a/a5/Fuddler_icon.png/300px-Fuddler_icon.png",
+    "element": [
+      "Ground"
+    ],
+    "work_suitability": {
+      "handiwork": 1,
+      "transporting": 1,
+      "mining": 1
+    },
+    "drops": [
+      "Leather"
+    ],
+    "breeding_rank": 1220,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Fuddler",
+    "local_icon": "public/300px-Fuddler_icon.png",
+    "combi_duplicate_priority": 6730000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "023",
+    "name": "Killamari",
+    "picture": "https://palworld.wiki.gg/images/thumb/4/40/Killamari_icon.png/300px-Killamari_icon.png",
+    "element": [
+      "Dark",
+      "Water"
+    ],
+    "work_suitability": {
+      "watering": 1,
+      "gathering": 1,
+      "transporting": 2
+    },
+    "drops": [
+      "Venom Gland"
+    ],
+    "breeding_rank": 1290,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Killamari",
+    "local_icon": "public/300px-Killamari_icon.png",
+    "combi_duplicate_priority": 6890000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "023B",
+    "name": "Killamari Primo",
+    "picture": "https://palworld.wiki.gg/images/thumb/3/30/Killamari_Primo_icon.png/300px-Killamari_Primo_icon.png",
+    "element": [
+      "Neutral",
+      "Water"
+    ],
+    "work_suitability": {
+      "watering": 1,
+      "gathering": 1,
+      "transporting": 2
+    },
+    "drops": [],
+    "breeding_rank": 1250,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Killamari_Primo",
+    "local_icon": "public/300px-Killamari_Primo_icon.png",
+    "combi_duplicate_priority": 571,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Killamari",
+        "id": "023"
+      },
+      {
+        "name": "Ribbuny",
+        "id": "039"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "024",
+    "name": "Mau",
+    "picture": "https://palworld.wiki.gg/images/thumb/9/96/Mau_icon.png/300px-Mau_icon.png",
+    "element": [
+      "Dark"
+    ],
+    "work_suitability": {
+      "farming": 1
+    },
+    "drops": [
+      "Gold Coin"
+    ],
+    "breeding_rank": 1480,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Mau",
+    "local_icon": "public/300px-Mau_icon.png",
+    "combi_duplicate_priority": 7740000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "024B",
+    "name": "Mau Cryst",
+    "picture": "https://palworld.wiki.gg/images/thumb/c/c0/Mau_Cryst_icon.png/300px-Mau_Cryst_icon.png",
+    "element": [
+      "Ice"
+    ],
+    "work_suitability": {
+      "cooling": 1,
+      "farming": 1
+    },
+    "drops": [
+      "Ice Organ",
+      "Sapphire"
+    ],
+    "breeding_rank": 1440,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Mau_Cryst",
+    "local_icon": "public/300px-Mau_Cryst_icon.png",
+    "combi_duplicate_priority": 7730000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Mau",
+        "id": "024"
+      },
+      {
+        "name": "Pengullet",
+        "id": "010"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "025",
+    "name": "Celaray",
+    "picture": "https://palworld.wiki.gg/images/thumb/0/0f/Celaray_icon.png/300px-Celaray_icon.png",
+    "element": [
+      "Water"
+    ],
+    "work_suitability": {
+      "watering": 1,
+      "transporting": 1
+    },
+    "drops": [
+      "Pal Fluids"
+    ],
+    "breeding_rank": 870,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Celaray",
+    "local_icon": "public/300px-Celaray_icon.png",
+    "combi_duplicate_priority": 6390000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "025B",
+    "name": "Celaray Lux",
+    "picture": "https://palworld.wiki.gg/images/thumb/1/1e/Celaray_Lux_icon.png/300px-Celaray_Lux_icon.png",
+    "element": [
+      "Water",
+      "Electric"
+    ],
+    "work_suitability": {
+      "watering": 1,
+      "generating_electricity": 1,
+      "transporting": 1
+    },
+    "drops": [],
+    "breeding_rank": 830,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Celaray_Lux",
+    "local_icon": "public/300px-Celaray_Lux_icon.png",
+    "combi_duplicate_priority": 574,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Celaray",
+        "id": "025"
+      },
+      {
+        "name": "Univolt",
+        "id": "056"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "026",
+    "name": "Direhowl",
+    "picture": "https://palworld.wiki.gg/images/thumb/a/a6/Direhowl_icon.png/300px-Direhowl_icon.png",
+    "element": [
+      "Neutral"
+    ],
+    "work_suitability": {
+      "gathering": 1
+    },
+    "drops": [
+      "Leather",
+      "Ruby",
+      "Gold Coin"
+    ],
+    "breeding_rank": 1060,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Direhowl",
+    "local_icon": "public/300px-Direhowl_icon.png",
+    "combi_duplicate_priority": 7630000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "027",
+    "name": "Tocotoco",
+    "picture": "https://palworld.wiki.gg/images/thumb/5/5a/Tocotoco_icon.png/300px-Tocotoco_icon.png",
+    "element": [
+      "Neutral"
+    ],
+    "work_suitability": {
+      "gathering": 1
+    },
+    "drops": [
+      "Gunpowder",
+      "Tocotoco Feather"
+    ],
+    "breeding_rank": 1340,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Tocotoco",
+    "local_icon": "public/300px-Tocotoco_icon.png",
+    "combi_duplicate_priority": 7700000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "028",
+    "name": "Flopie",
+    "picture": "https://palworld.wiki.gg/images/thumb/5/51/Flopie_icon.png/300px-Flopie_icon.png",
+    "element": [
+      "Grass"
+    ],
+    "work_suitability": {
+      "planting": 1,
+      "handiwork": 1,
+      "medicine_production": 1,
+      "transporting": 1,
+      "gathering": 1
+    },
+    "drops": [
+      "Low Grade Medical Supplies",
+      "Wheat Seeds"
+    ],
+    "breeding_rank": 1280,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Flopie",
+    "local_icon": "public/300px-Flopie_icon.png",
+    "combi_duplicate_priority": 6830000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "029",
+    "name": "Mozzarina",
+    "picture": "https://palworld.wiki.gg/images/thumb/5/51/Mozzarina_icon.png/300px-Mozzarina_icon.png",
+    "element": [
+      "Neutral"
+    ],
+    "work_suitability": {
+      "farming": 1
+    },
+    "drops": [
+      "Milk",
+      "Mozzarina Meat"
+    ],
+    "breeding_rank": 910,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Mozzarina",
+    "local_icon": "public/300px-Mozzarina_icon.png",
+    "combi_duplicate_priority": 6880000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "030",
+    "name": "Bristla",
+    "picture": "https://palworld.wiki.gg/images/thumb/b/b6/Bristla_icon.png/300px-Bristla_icon.png",
+    "element": [
+      "Grass"
+    ],
+    "work_suitability": {
+      "planting": 1,
+      "handiwork": 1,
+      "medicine_production": 2,
+      "transporting": 1,
+      "gathering": 1
+    },
+    "drops": [
+      "Lettuce Seeds",
+      "Wheat Seeds"
+    ],
+    "breeding_rank": 1320,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Bristla",
+    "local_icon": "public/300px-Bristla_icon.png",
+    "combi_duplicate_priority": 7560000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "031",
+    "name": "Gobfin",
+    "picture": "https://palworld.wiki.gg/images/thumb/f/fd/Gobfin_icon.png/300px-Gobfin_icon.png",
+    "element": [
+      "Water"
+    ],
+    "work_suitability": {
+      "watering": 2,
+      "handiwork": 1,
+      "transporting": 1
+    },
+    "drops": [
+      "Pal Fluids"
+    ],
+    "breeding_rank": 1090,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Gobfin",
+    "local_icon": "public/300px-Gobfin_icon.png",
+    "combi_duplicate_priority": 7520000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "031B",
+    "name": "Gobfin Ignis",
+    "picture": "https://palworld.wiki.gg/images/thumb/d/d3/Gobfin_Ignis_icon.png/300px-Gobfin_Ignis_icon.png",
+    "element": [
+      "Fire"
+    ],
+    "work_suitability": {
+      "kindling": 2,
+      "handiwork": 1,
+      "transporting": 1
+    },
+    "drops": [
+      "Flame Organ"
+    ],
+    "breeding_rank": 1100,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Gobfin_Ignis",
+    "local_icon": "public/300px-Gobfin_Ignis_icon.png",
+    "combi_duplicate_priority": 7510000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Gobfin",
+        "id": "031"
+      },
+      {
+        "name": "Rooby",
+        "id": "009"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "032",
+    "name": "Hangyu",
+    "picture": "https://palworld.wiki.gg/images/thumb/9/9c/Hangyu_icon.png/300px-Hangyu_icon.png",
+    "element": [
+      "Ground"
+    ],
+    "work_suitability": {
+      "handiwork": 1,
+      "gathering": 1,
+      "transporting": 2
+    },
+    "drops": [
+      "Fiber"
+    ],
+    "breeding_rank": 1420,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Hangyu",
+    "local_icon": "public/300px-Hangyu_icon.png",
+    "combi_duplicate_priority": 7460000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "032B",
+    "name": "Hangyu Cryst",
+    "picture": "https://palworld.wiki.gg/images/thumb/c/c0/Hangyu_Cryst_icon.png/300px-Hangyu_Cryst_icon.png",
+    "element": [
+      "Ice"
+    ],
+    "work_suitability": {
+      "handiwork": 1,
+      "gathering": 1,
+      "cooling": 1,
+      "transporting": 2
+    },
+    "drops": [
+      "Fiber",
+      "Ice Organ"
+    ],
+    "breeding_rank": 1422,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Hangyu_Cryst",
+    "local_icon": "public/300px-Hangyu_Cryst_icon.png",
+    "combi_duplicate_priority": 7450000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Hangyu",
+        "id": "032"
+      },
+      {
+        "name": "Swee",
+        "id": "053"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "033",
+    "name": "Mossanda",
+    "picture": "https://palworld.wiki.gg/images/thumb/3/3d/Mossanda_icon.png/300px-Mossanda_icon.png",
+    "element": [
+      "Grass"
+    ],
+    "work_suitability": {
+      "planting": 2,
+      "handiwork": 2,
+      "lumbering": 2,
+      "transporting": 3
+    },
+    "drops": [
+      "Mushroom",
+      "Leather",
+      "Tomato Seeds"
+    ],
+    "breeding_rank": 430,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Mossanda",
+    "local_icon": "public/300px-Mossanda_icon.png",
+    "combi_duplicate_priority": 6770000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "033B",
+    "name": "Mossanda Lux",
+    "picture": "https://palworld.wiki.gg/images/thumb/6/62/Mossanda_Lux_icon.png/300px-Mossanda_Lux_icon.png",
+    "element": [
+      "Electric"
+    ],
+    "work_suitability": {
+      "generating_electricity": 2,
+      "handiwork": 2,
+      "lumbering": 2,
+      "transporting": 3
+    },
+    "drops": [
+      "Electric Organ",
+      "Leather",
+      "Mushroom"
+    ],
+    "breeding_rank": 390,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Mossanda_Lux",
+    "local_icon": "public/300px-Mossanda_Lux_icon.png",
+    "combi_duplicate_priority": 6760000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Mossanda",
+        "id": "033"
+      },
+      {
+        "name": "Grizzbolt",
+        "id": "103"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "034",
+    "name": "Woolipop",
+    "picture": "https://palworld.wiki.gg/images/thumb/a/a7/Woolipop_icon.png/300px-Woolipop_icon.png",
+    "element": [
+      "Neutral"
+    ],
+    "work_suitability": {
+      "farming": 1
+    },
+    "drops": [
+      "Cotton Candy",
+      "High Quality Pal Oil"
+    ],
+    "breeding_rank": 1190,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Woolipop",
+    "local_icon": "public/300px-Woolipop_icon.png",
+    "combi_duplicate_priority": 7380000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "035",
+    "name": "Caprity",
+    "picture": "https://palworld.wiki.gg/images/thumb/8/86/Caprity_icon.png/300px-Caprity_icon.png",
+    "element": [
+      "Grass"
+    ],
+    "work_suitability": {
+      "planting": 2,
+      "farming": 1
+    },
+    "drops": [
+      "Caprity Meat",
+      "Red Berries",
+      "Horn"
+    ],
+    "breeding_rank": 930,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Caprity",
+    "local_icon": "public/300px-Caprity_icon.png",
+    "combi_duplicate_priority": 7000000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "035B",
+    "name": "Caprity Noct",
+    "picture": "https://palworld.wiki.gg/images/thumb/6/6c/Caprity_Noct_icon.png/300px-Caprity_Noct_icon.png",
+    "element": [
+      "Dark"
+    ],
+    "work_suitability": {
+      "planting": 2,
+      "farming": 1
+    },
+    "drops": [],
+    "breeding_rank": 855,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Caprity_Noct",
+    "local_icon": "public/300px-Caprity_Noct_icon.png",
+    "combi_duplicate_priority": 5420000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Caprity",
+        "id": "035"
+      },
+      {
+        "name": "Tarantriss",
+        "id": "135"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "036",
+    "name": "Melpaca",
+    "picture": "https://palworld.wiki.gg/images/thumb/7/76/Melpaca_icon.png/300px-Melpaca_icon.png",
+    "element": [
+      "Neutral"
+    ],
+    "work_suitability": {
+      "farming": 1
+    },
+    "drops": [
+      "Wool",
+      "Leather"
+    ],
+    "breeding_rank": 890,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Melpaca",
+    "local_icon": "public/300px-Melpaca_icon.png",
+    "combi_duplicate_priority": 7360000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "037",
+    "name": "Eikthyrdeer",
+    "picture": "https://palworld.wiki.gg/images/thumb/9/91/Eikthyrdeer_icon.png/300px-Eikthyrdeer_icon.png",
+    "element": [
+      "Neutral"
+    ],
+    "work_suitability": {
+      "lumbering": 2
+    },
+    "drops": [
+      "Eikthyrdeer Venison",
+      "Leather",
+      "Horn"
+    ],
+    "breeding_rank": 920,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Eikthyrdeer",
+    "local_icon": "public/300px-Eikthyrdeer_icon.png",
+    "combi_duplicate_priority": 7690000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "037B",
+    "name": "Eikthyrdeer Terra",
+    "picture": "https://palworld.wiki.gg/images/thumb/0/0c/Eikthyrdeer_Terra_icon.png/300px-Eikthyrdeer_Terra_icon.png",
+    "element": [
+      "Ground"
+    ],
+    "work_suitability": {
+      "lumbering": 2
+    },
+    "drops": [
+      "Eikthyrdeer Venison",
+      "Leather",
+      "Horn"
+    ],
+    "breeding_rank": 900,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Eikthyrdeer_Terra",
+    "local_icon": "public/300px-Eikthyrdeer_Terra_icon.png",
+    "combi_duplicate_priority": 7680000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Eikthyrdeer",
+        "id": "037"
+      },
+      {
+        "name": "Hangyu",
+        "id": "032"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "038",
+    "name": "Nitewing",
+    "picture": "https://palworld.wiki.gg/images/thumb/f/f8/Nitewing_icon.png/300px-Nitewing_icon.png",
+    "element": [
+      "Neutral"
+    ],
+    "work_suitability": {
+      "gathering": 2
+    },
+    "drops": [
+      "Leather",
+      "Nitewing Talon"
+    ],
+    "breeding_rank": 420,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Nitewing",
+    "local_icon": "public/300px-Nitewing_icon.png",
+    "combi_duplicate_priority": 6840000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "039",
+    "name": "Ribbuny",
+    "picture": "https://palworld.wiki.gg/images/thumb/0/09/Ribbuny_icon.png/300px-Ribbuny_icon.png",
+    "element": [
+      "Neutral"
+    ],
+    "work_suitability": {
+      "handiwork": 1,
+      "gathering": 1,
+      "transporting": 1
+    },
+    "drops": [
+      "Leather",
+      "Beautiful Flower"
+    ],
+    "breeding_rank": 1310,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Ribbuny",
+    "local_icon": "public/300px-Ribbuny_icon.png",
+    "combi_duplicate_priority": 6550000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "039B",
+    "name": "Ribbuny Botan",
+    "picture": "https://palworld.wiki.gg/images/thumb/8/8f/Ribbuny_Botan_icon.png/300px-Ribbuny_Botan_icon.png",
+    "element": [
+      "Grass"
+    ],
+    "work_suitability": {
+      "planting": 1,
+      "handiwork": 1,
+      "gathering": 1,
+      "transporting": 1
+    },
+    "drops": [],
+    "breeding_rank": 1205,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Ribbuny_Botan",
+    "local_icon": "public/300px-Ribbuny_Botan_icon.png",
+    "combi_duplicate_priority": 5410000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Ribbuny",
+        "id": "039"
+      },
+      {
+        "name": "Bristla",
+        "id": "030"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "040",
+    "name": "Incineram",
+    "picture": "https://palworld.wiki.gg/images/thumb/0/0b/Incineram_icon.png/300px-Incineram_icon.png",
+    "element": [
+      "Fire",
+      "Dark"
+    ],
+    "work_suitability": {
+      "kindling": 1,
+      "handiwork": 2,
+      "mining": 1,
+      "transporting": 2
+    },
+    "drops": [
+      "Horn",
+      "Leather"
+    ],
+    "breeding_rank": 590,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Incineram",
+    "local_icon": "public/300px-Incineram_icon.png",
+    "combi_duplicate_priority": 7760000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "040B",
+    "name": "Incineram Noct",
+    "picture": "https://palworld.wiki.gg/images/thumb/d/d7/Incineram_Noct_icon.png/300px-Incineram_Noct_icon.png",
+    "element": [
+      "Dark"
+    ],
+    "work_suitability": {
+      "handiwork": 2,
+      "mining": 1,
+      "transporting": 2
+    },
+    "drops": [
+      "Horn",
+      "Leather"
+    ],
+    "breeding_rank": 580,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Incineram_Noct",
+    "local_icon": "public/300px-Incineram_Noct_icon.png",
+    "combi_duplicate_priority": 7750000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Incineram",
+        "id": "040"
+      },
+      {
+        "name": "Maraith",
+        "id": "066"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "041",
+    "name": "Cinnamoth",
+    "picture": "https://palworld.wiki.gg/images/thumb/a/a5/Cinnamoth_icon.png/300px-Cinnamoth_icon.png",
+    "element": [
+      "Grass"
+    ],
+    "work_suitability": {
+      "planting": 2,
+      "medicine_production": 1
+    },
+    "drops": [
+      "Honey",
+      "Lettuce Seeds",
+      "Wheat Seeds"
+    ],
+    "breeding_rank": 490,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Cinnamoth",
+    "local_icon": "public/300px-Cinnamoth_icon.png",
+    "combi_duplicate_priority": 6350000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "042",
+    "name": "Arsox",
+    "picture": "https://palworld.wiki.gg/images/thumb/2/21/Arsox_icon.png/300px-Arsox_icon.png",
+    "element": [
+      "Fire"
+    ],
+    "work_suitability": {
+      "kindling": 2,
+      "lumbering": 1
+    },
+    "drops": [
+      "Horn",
+      "Flame Organ"
+    ],
+    "breeding_rank": 790,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Arsox",
+    "local_icon": "public/300px-Arsox_icon.png",
+    "combi_duplicate_priority": 6750000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "043",
+    "name": "Dumud",
+    "picture": "https://palworld.wiki.gg/images/thumb/8/80/Dumud_icon.png/300px-Dumud_icon.png",
+    "element": [
+      "Ground"
+    ],
+    "work_suitability": {
+      "watering": 1,
+      "mining": 2,
+      "transporting": 1,
+      "farming": 1
+    },
+    "drops": [
+      "Raw Dumud",
+      "High Quality Pal Oil"
+    ],
+    "breeding_rank": 895,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Dumud",
+    "local_icon": "public/300px-Dumud_icon.png",
+    "combi_duplicate_priority": 6300000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "043B",
+    "name": "Dumud Gild",
+    "picture": "https://palworld.wiki.gg/images/thumb/c/ca/Dumud_Gild_icon.png/300px-Dumud_Gild_icon.png",
+    "element": [
+      "Ground",
+      "Water"
+    ],
+    "work_suitability": {
+      "watering": 1,
+      "mining": 2,
+      "transporting": 1,
+      "farming": 1
+    },
+    "drops": [],
+    "breeding_rank": 855,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Dumud_Gild",
+    "local_icon": "public/300px-Dumud_Gild_icon.png",
+    "combi_duplicate_priority": 576,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Dumud",
+        "id": "043"
+      },
+      {
+        "name": "Eikthyrdeer Terra",
+        "id": "037B"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "044",
+    "name": "Cawgnito",
+    "picture": "https://palworld.wiki.gg/images/thumb/d/d2/Cawgnito_icon.png/300px-Cawgnito_icon.png",
+    "element": [
+      "Dark"
+    ],
+    "work_suitability": {
+      "lumbering": 1
+    },
+    "drops": [
+      "Bone",
+      "Venom Gland",
+      "Small Pal Soul"
+    ],
+    "breeding_rank": 1080,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Cawgnito",
+    "local_icon": "public/300px-Cawgnito_icon.png",
+    "combi_duplicate_priority": 7330000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "045",
+    "name": "Leezpunk",
+    "picture": "https://palworld.wiki.gg/images/thumb/3/33/Leezpunk_icon.png/300px-Leezpunk_icon.png",
+    "element": [
+      "Dark"
+    ],
+    "work_suitability": {
+      "handiwork": 1,
+      "gathering": 1,
+      "transporting": 1
+    },
+    "drops": [
+      "Copper Key",
+      "Silver Key"
+    ],
+    "breeding_rank": 1120,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Leezpunk",
+    "local_icon": "public/300px-Leezpunk_icon.png",
+    "combi_duplicate_priority": 7200000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "045B",
+    "name": "Leezpunk Ignis",
+    "picture": "https://palworld.wiki.gg/images/thumb/7/7e/Leezpunk_Ignis_icon.png/300px-Leezpunk_Ignis_icon.png",
+    "element": [
+      "Fire"
+    ],
+    "work_suitability": {
+      "kindling": 1,
+      "handiwork": 1,
+      "gathering": 1,
+      "transporting": 1
+    },
+    "drops": [
+      "Flame Organ",
+      "Silver Key"
+    ],
+    "breeding_rank": 1140,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Leezpunk_Ignis",
+    "local_icon": "public/300px-Leezpunk_Ignis_icon.png",
+    "combi_duplicate_priority": 7190000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Leezpunk",
+        "id": "045"
+      },
+      {
+        "name": "Flambelle",
+        "id": "070"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "046",
+    "name": "Loupmoon",
+    "picture": "https://palworld.wiki.gg/images/thumb/8/87/Loupmoon_icon.png/300px-Loupmoon_icon.png",
+    "element": [
+      "Dark"
+    ],
+    "work_suitability": {
+      "handiwork": 2
+    },
+    "drops": [
+      "Bone"
+    ],
+    "breeding_rank": 950,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Loupmoon",
+    "local_icon": "public/300px-Loupmoon_icon.png",
+    "combi_duplicate_priority": 7470000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "046B",
+    "name": "Loupmoon Cryst",
+    "picture": "https://palworld.wiki.gg/images/thumb/f/f2/Loupmoon_Cryst_icon.png/300px-Loupmoon_Cryst_icon.png",
+    "element": [
+      "Ice"
+    ],
+    "work_suitability": {
+      "handiwork": 2,
+      "cooling": 3
+    },
+    "drops": [],
+    "breeding_rank": 805,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Loupmoon_Cryst",
+    "local_icon": "public/300px-Loupmoon_Cryst_icon.png",
+    "combi_duplicate_priority": 5400000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Loupmoon",
+        "id": "046"
+      },
+      {
+        "name": "Sweepa",
+        "id": "054"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "047",
+    "name": "Galeclaw",
+    "picture": "https://palworld.wiki.gg/images/thumb/a/ad/Galeclaw_icon.png/300px-Galeclaw_icon.png",
+    "element": [
+      "Neutral"
+    ],
+    "work_suitability": {
+      "gathering": 2
+    },
+    "drops": [
+      "Galeclaw Poultry",
+      "Leather"
+    ],
+    "breeding_rank": 1030,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Galeclaw",
+    "local_icon": "public/300px-Galeclaw_icon.png",
+    "combi_duplicate_priority": 7660000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "048",
+    "name": "Robinquill",
+    "picture": "https://palworld.wiki.gg/images/thumb/9/9b/Robinquill_icon.png/300px-Robinquill_icon.png",
+    "element": [
+      "Grass"
+    ],
+    "work_suitability": {
+      "planting": 1,
+      "handiwork": 2,
+      "gathering": 2,
+      "lumbering": 1,
+      "medicine_production": 1,
+      "transporting": 2
+    },
+    "drops": [
+      "Wheat Seeds",
+      "Arrow"
+    ],
+    "breeding_rank": 1020,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Robinquill",
+    "local_icon": "public/300px-Robinquill_icon.png",
+    "combi_duplicate_priority": 7250000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "048B",
+    "name": "Robinquill Terra",
+    "picture": "https://palworld.wiki.gg/images/thumb/8/89/Robinquill_Terra_icon.png/300px-Robinquill_Terra_icon.png",
+    "element": [
+      "Grass",
+      "Ground"
+    ],
+    "work_suitability": {
+      "handiwork": 2,
+      "gathering": 2,
+      "lumbering": 1,
+      "medicine_production": 1,
+      "transporting": 2
+    },
+    "drops": [
+      "Wheat Seeds",
+      "Arrow"
+    ],
+    "breeding_rank": 1000,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Robinquill_Terra",
+    "local_icon": "public/300px-Robinquill_Terra_icon.png",
+    "combi_duplicate_priority": 7240000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Robinquill",
+        "id": "048"
+      },
+      {
+        "name": "Fuddler",
+        "id": "022"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "049",
+    "name": "Gorirat",
+    "picture": "https://palworld.wiki.gg/images/thumb/b/b4/Gorirat_icon.png/300px-Gorirat_icon.png",
+    "element": [
+      "Neutral"
+    ],
+    "work_suitability": {
+      "handiwork": 1,
+      "lumbering": 2,
+      "transporting": 3
+    },
+    "drops": [
+      "Leather",
+      "Bone"
+    ],
+    "breeding_rank": 1040,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Gorirat",
+    "local_icon": "public/300px-Gorirat_icon.png",
+    "combi_duplicate_priority": 7620000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "049B",
+    "name": "Gorirat Terra",
+    "picture": "https://palworld.wiki.gg/images/thumb/a/aa/Gorirat_Terra_icon.png/300px-Gorirat_Terra_icon.png",
+    "element": [
+      "Ground"
+    ],
+    "work_suitability": {
+      "handiwork": 1,
+      "mining": 2,
+      "transporting": 3
+    },
+    "drops": [],
+    "breeding_rank": 1030,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Gorirat_Terra",
+    "local_icon": "public/300px-Gorirat_Terra_icon.png",
+    "combi_duplicate_priority": 7610000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Gorirat",
+        "id": "049"
+      },
+      {
+        "name": "Kikit",
+        "id": "117"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "050",
+    "name": "Beegarde",
+    "picture": "https://palworld.wiki.gg/images/thumb/3/37/Beegarde_icon.png/300px-Beegarde_icon.png",
+    "element": [
+      "Grass"
+    ],
+    "work_suitability": {
+      "planting": 1,
+      "handiwork": 1,
+      "gathering": 1,
+      "lumbering": 1,
+      "medicine_production": 1,
+      "transporting": 2,
+      "farming": 1
+    },
+    "drops": [
+      "Honey"
+    ],
+    "breeding_rank": 1070,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Beegarde",
+    "local_icon": "public/300px-Beegarde_icon.png",
+    "combi_duplicate_priority": 6790000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "051",
+    "name": "Elizabee",
+    "picture": "https://palworld.wiki.gg/images/thumb/a/ad/Elizabee_icon.png/300px-Elizabee_icon.png",
+    "element": [
+      "Grass"
+    ],
+    "work_suitability": {
+      "planting": 2,
+      "handiwork": 2,
+      "gathering": 2,
+      "lumbering": 1,
+      "medicine_production": 2
+    },
+    "drops": [
+      "Honey",
+      "Elizabee's Staff"
+    ],
+    "breeding_rank": 330,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Elizabee",
+    "local_icon": "public/300px-Elizabee_icon.png",
+    "combi_duplicate_priority": 6800000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "052",
+    "name": "Grintale",
+    "picture": "https://palworld.wiki.gg/images/thumb/4/4d/Grintale_icon.png/300px-Grintale_icon.png",
+    "element": [
+      "Neutral"
+    ],
+    "work_suitability": {
+      "gathering": 2
+    },
+    "drops": [
+      "High Quality Pal Oil"
+    ],
+    "breeding_rank": 510,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Grintale",
+    "local_icon": "public/300px-Grintale_icon.png",
+    "combi_duplicate_priority": 6360000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "053",
+    "name": "Swee",
+    "picture": "https://palworld.wiki.gg/images/thumb/d/d5/Swee_icon.png/300px-Swee_icon.png",
+    "element": [
+      "Ice"
+    ],
+    "work_suitability": {
+      "gathering": 1,
+      "cooling": 1
+    },
+    "drops": [
+      "Wool"
+    ],
+    "breeding_rank": 1300,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Swee",
+    "local_icon": "public/300px-Swee_icon.png",
+    "combi_duplicate_priority": 6590000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "054",
+    "name": "Sweepa",
+    "picture": "https://palworld.wiki.gg/images/thumb/d/d2/Sweepa_icon.png/300px-Sweepa_icon.png",
+    "element": [
+      "Ice"
+    ],
+    "work_suitability": {
+      "gathering": 2,
+      "cooling": 2
+    },
+    "drops": [
+      "Wool"
+    ],
+    "breeding_rank": 410,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Sweepa",
+    "local_icon": "public/300px-Sweepa_icon.png",
+    "combi_duplicate_priority": 6580000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "055",
+    "name": "Chillet",
+    "picture": "https://palworld.wiki.gg/images/thumb/0/0f/Chillet_icon.png/300px-Chillet_icon.png",
+    "element": [
+      "Ice",
+      "Dragon"
+    ],
+    "work_suitability": {
+      "gathering": 1,
+      "cooling": 1
+    },
+    "drops": [
+      "Leather"
+    ],
+    "breeding_rank": 800,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Chillet",
+    "local_icon": "public/300px-Chillet_icon.png",
+    "combi_duplicate_priority": 6480000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "055B",
+    "name": "Chillet Ignis",
+    "picture": "https://palworld.wiki.gg/images/thumb/1/1e/Chillet_Ignis_icon.png/300px-Chillet_Ignis_icon.png",
+    "element": [
+      "Fire",
+      "Dragon"
+    ],
+    "work_suitability": {
+      "kindling": 2,
+      "gathering": 1
+    },
+    "drops": [],
+    "breeding_rank": 790,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Chillet_Ignis",
+    "local_icon": "public/300px-Chillet_Ignis_icon.png",
+    "combi_duplicate_priority": 6470000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Chillet",
+        "id": "055"
+      },
+      {
+        "name": "Arsox",
+        "id": "042"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "056",
+    "name": "Univolt",
+    "picture": "https://palworld.wiki.gg/images/thumb/b/ba/Univolt_icon.png/300px-Univolt_icon.png",
+    "element": [
+      "Electric"
+    ],
+    "work_suitability": {
+      "generating_electricity": 2,
+      "lumbering": 1
+    },
+    "drops": [
+      "Leather",
+      "Electric Organ",
+      "Horn"
+    ],
+    "breeding_rank": 680,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Univolt",
+    "local_icon": "public/300px-Univolt_icon.png",
+    "combi_duplicate_priority": 7580000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "057",
+    "name": "Foxcicle",
+    "picture": "https://palworld.wiki.gg/images/thumb/2/2d/Foxcicle_icon.png/300px-Foxcicle_icon.png",
+    "element": [
+      "Ice"
+    ],
+    "work_suitability": {
+      "cooling": 2
+    },
+    "drops": [
+      "Leather",
+      "Ice Organ"
+    ],
+    "breeding_rank": 760,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Foxcicle",
+    "local_icon": "public/300px-Foxcicle_icon.png",
+    "combi_duplicate_priority": 6700000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "058",
+    "name": "Pyrin",
+    "picture": "https://palworld.wiki.gg/images/thumb/4/46/Pyrin_icon.png/300px-Pyrin_icon.png",
+    "element": [
+      "Fire"
+    ],
+    "work_suitability": {
+      "kindling": 2,
+      "lumbering": 1
+    },
+    "drops": [
+      "Flame Organ",
+      "Leather"
+    ],
+    "breeding_rank": 360,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Pyrin",
+    "local_icon": "public/300px-Pyrin_icon.png",
+    "combi_duplicate_priority": 7420000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "058B",
+    "name": "Pyrin Noct",
+    "picture": "https://palworld.wiki.gg/images/thumb/8/81/Pyrin_Noct_icon.png/300px-Pyrin_Noct_icon.png",
+    "element": [
+      "Fire",
+      "Dark"
+    ],
+    "work_suitability": {
+      "kindling": 2,
+      "lumbering": 1
+    },
+    "drops": [
+      "Flame Organ",
+      "Leather"
+    ],
+    "breeding_rank": 240,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Pyrin_Noct",
+    "local_icon": "public/300px-Pyrin_Noct_icon.png",
+    "combi_duplicate_priority": 7410000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Pyrin",
+        "id": "058"
+      },
+      {
+        "name": "Katress",
+        "id": "075"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "059",
+    "name": "Reindrix",
+    "picture": "https://palworld.wiki.gg/images/thumb/1/1e/Reindrix_icon.png/300px-Reindrix_icon.png",
+    "element": [
+      "Ice"
+    ],
+    "work_suitability": {
+      "lumbering": 2,
+      "cooling": 2
+    },
+    "drops": [
+      "Reindrix Venison",
+      "Leather",
+      "Horn",
+      "Ice Organ"
+    ],
+    "breeding_rank": 880,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Reindrix",
+    "local_icon": "public/300px-Reindrix_icon.png",
+    "combi_duplicate_priority": 6990000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "060",
+    "name": "Rayhound",
+    "picture": "https://palworld.wiki.gg/images/thumb/d/dc/Rayhound_icon.png/300px-Rayhound_icon.png",
+    "element": [
+      "Electric"
+    ],
+    "work_suitability": {
+      "generating_electricity": 2
+    },
+    "drops": [
+      "Electric Organ"
+    ],
+    "breeding_rank": 740,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Rayhound",
+    "local_icon": "public/300px-Rayhound_icon.png",
+    "combi_duplicate_priority": 6740000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "061",
+    "name": "Kitsun",
+    "picture": "https://palworld.wiki.gg/images/thumb/0/00/Kitsun_icon.png/300px-Kitsun_icon.png",
+    "element": [
+      "Fire"
+    ],
+    "work_suitability": {
+      "kindling": 2
+    },
+    "drops": [
+      "Flame Organ",
+      "Leather"
+    ],
+    "breeding_rank": 830,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Kitsun",
+    "local_icon": "public/300px-Kitsun_icon.png",
+    "combi_duplicate_priority": 7210000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "061B",
+    "name": "Kitsun Noct",
+    "picture": "https://palworld.wiki.gg/images/thumb/a/a2/Kitsun_Noct_icon.png/300px-Kitsun_Noct_icon.png",
+    "element": [
+      "Dark"
+    ],
+    "work_suitability": {
+      "kindling": 2
+    },
+    "drops": [],
+    "breeding_rank": 735,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Kitsun_Noct",
+    "local_icon": "public/300px-Kitsun_Noct_icon.png",
+    "combi_duplicate_priority": 5390000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Kitsun",
+        "id": "061"
+      },
+      {
+        "name": "Nyafia",
+        "id": "139"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "062",
+    "name": "Dazzi",
+    "picture": "https://palworld.wiki.gg/images/thumb/6/62/Dazzi_icon.png/300px-Dazzi_icon.png",
+    "element": [
+      "Electric"
+    ],
+    "work_suitability": {
+      "generating_electricity": 1,
+      "handiwork": 1,
+      "transporting": 1
+    },
+    "drops": [
+      "Electric Organ"
+    ],
+    "breeding_rank": 1210,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Dazzi",
+    "local_icon": "public/300px-Dazzi_icon.png",
+    "combi_duplicate_priority": 7530000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "062B",
+    "name": "Dazzi Noct",
+    "picture": "https://palworld.wiki.gg/images/thumb/5/5b/Dazzi_Noct_icon.png/300px-Dazzi_Noct_icon.png",
+    "element": [
+      "Electric",
+      "Dark"
+    ],
+    "work_suitability": {
+      "generating_electricity": 1,
+      "handiwork": 1,
+      "medicine_production": 1,
+      "transporting": 1
+    },
+    "drops": [],
+    "breeding_rank": 1115,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Dazzi_Noct",
+    "local_icon": "public/300px-Dazzi_Noct_icon.png",
+    "combi_duplicate_priority": 5380000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Dazzi",
+        "id": "062"
+      },
+      {
+        "name": "Omascul",
+        "id": "133"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "063",
+    "name": "Lunaris",
+    "picture": "https://palworld.wiki.gg/images/thumb/5/53/Lunaris_icon.png/300px-Lunaris_icon.png",
+    "element": [
+      "Neutral"
+    ],
+    "work_suitability": {
+      "handiwork": 3,
+      "gathering": 1,
+      "transporting": 1
+    },
+    "drops": [
+      "Paldium Fragment"
+    ],
+    "breeding_rank": 1110,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Lunaris",
+    "local_icon": "public/300px-Lunaris_icon.png",
+    "combi_duplicate_priority": 7550000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "064",
+    "name": "Dinossom",
+    "picture": "https://palworld.wiki.gg/images/thumb/9/9e/Dinossom_icon.png/300px-Dinossom_icon.png",
+    "element": [
+      "Grass",
+      "Dragon"
+    ],
+    "work_suitability": {
+      "planting": 2,
+      "lumbering": 2
+    },
+    "drops": [
+      "Wheat Seeds"
+    ],
+    "breeding_rank": 820,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Dinossom",
+    "local_icon": "public/300px-Dinossom_icon.png",
+    "combi_duplicate_priority": 7130000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "064B",
+    "name": "Dinossom Lux",
+    "picture": "https://palworld.wiki.gg/images/thumb/8/8f/Dinossom_Lux_icon.png/300px-Dinossom_Lux_icon.png",
+    "element": [
+      "Electric",
+      "Dragon"
+    ],
+    "work_suitability": {
+      "generating_electricity": 2,
+      "lumbering": 2
+    },
+    "drops": [
+      "Tomato Seeds"
+    ],
+    "breeding_rank": 810,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Dinossom_Lux",
+    "local_icon": "public/300px-Dinossom_Lux_icon.png",
+    "combi_duplicate_priority": 7120000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Dinossom",
+        "id": "064"
+      },
+      {
+        "name": "Rayhound",
+        "id": "060"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "065",
+    "name": "Surfent",
+    "picture": "https://palworld.wiki.gg/images/thumb/b/b5/Surfent_icon.png/300px-Surfent_icon.png",
+    "element": [
+      "Water"
+    ],
+    "work_suitability": {
+      "watering": 2
+    },
+    "drops": [
+      "Pal Fluids"
+    ],
+    "breeding_rank": 560,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Surfent",
+    "local_icon": "public/300px-Surfent_icon.png",
+    "combi_duplicate_priority": 7350000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "065B",
+    "name": "Surfent Terra",
+    "picture": "https://palworld.wiki.gg/images/thumb/4/46/Surfent_Terra_icon.png/300px-Surfent_Terra_icon.png",
+    "element": [
+      "Ground"
+    ],
+    "work_suitability": {
+      "gathering": 1
+    },
+    "drops": [
+      "Pal Fluids"
+    ],
+    "breeding_rank": 550,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Surfent_Terra",
+    "local_icon": "public/300px-Surfent_Terra_icon.png",
+    "combi_duplicate_priority": 7340000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Surfent",
+        "id": "065"
+      },
+      {
+        "name": "Dumud",
+        "id": "043"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "066",
+    "name": "Maraith",
+    "picture": "https://palworld.wiki.gg/images/thumb/d/da/Maraith_icon.png/300px-Maraith_icon.png",
+    "element": [
+      "Dark"
+    ],
+    "work_suitability": {
+      "gathering": 2,
+      "mining": 1
+    },
+    "drops": [
+      "Bone",
+      "Small Pal Soul"
+    ],
+    "breeding_rank": 1150,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Maraith",
+    "local_icon": "public/300px-Maraith_icon.png",
+    "combi_duplicate_priority": 7260000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "067",
+    "name": "Digtoise",
+    "picture": "https://palworld.wiki.gg/images/thumb/3/3b/Digtoise_icon.png/300px-Digtoise_icon.png",
+    "element": [
+      "Ground"
+    ],
+    "work_suitability": {
+      "mining": 3
+    },
+    "drops": [
+      "Ore",
+      "High Quality Pal Oil"
+    ],
+    "breeding_rank": 850,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Digtoise",
+    "local_icon": "public/300px-Digtoise_icon.png",
+    "combi_duplicate_priority": 7670000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "068",
+    "name": "Tombat",
+    "picture": "https://palworld.wiki.gg/images/thumb/1/15/Tombat_icon.png/300px-Tombat_icon.png",
+    "element": [
+      "Dark"
+    ],
+    "work_suitability": {
+      "gathering": 2,
+      "mining": 2,
+      "transporting": 2
+    },
+    "drops": [
+      "Leather",
+      "Small Pal Soul"
+    ],
+    "breeding_rank": 750,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Tombat",
+    "local_icon": "public/300px-Tombat_icon.png",
+    "combi_duplicate_priority": 6780000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "069",
+    "name": "Lovander",
+    "picture": "https://palworld.wiki.gg/images/thumb/a/a4/Lovander_icon.png/300px-Lovander_icon.png",
+    "element": [
+      "Neutral"
+    ],
+    "work_suitability": {
+      "handiwork": 2,
+      "mining": 1,
+      "medicine_production": 2,
+      "transporting": 2
+    },
+    "drops": [
+      "Mushroom",
+      "Cake",
+      "Suspicious Juice",
+      "Strange Juice"
+    ],
+    "breeding_rank": 940,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Lovander",
+    "local_icon": "public/300px-Lovander_icon.png",
+    "combi_duplicate_priority": 6930000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "070",
+    "name": "Flambelle",
+    "picture": "https://palworld.wiki.gg/images/thumb/c/ca/Flambelle_icon.png/300px-Flambelle_icon.png",
+    "element": [
+      "Fire"
+    ],
+    "work_suitability": {
+      "kindling": 1,
+      "handiwork": 1,
+      "transporting": 1,
+      "farming": 1
+    },
+    "drops": [
+      "Flame Organ",
+      "High Quality Pal Oil"
+    ],
+    "breeding_rank": 1405,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Flambelle",
+    "local_icon": "public/300px-Flambelle_icon.png",
+    "combi_duplicate_priority": 6290000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "071",
+    "name": "Vanwyrm",
+    "picture": "https://palworld.wiki.gg/images/thumb/3/34/Vanwyrm_icon.png/300px-Vanwyrm_icon.png",
+    "element": [
+      "Fire",
+      "Dark"
+    ],
+    "work_suitability": {
+      "kindling": 1,
+      "transporting": 3
+    },
+    "drops": [
+      "Bone",
+      "Ruby",
+      "Gold Coin"
+    ],
+    "breeding_rank": 660,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Vanwyrm",
+    "local_icon": "public/300px-Vanwyrm_icon.png",
+    "combi_duplicate_priority": 7160000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "071B",
+    "name": "Vanwyrm Cryst",
+    "picture": "https://palworld.wiki.gg/images/thumb/b/b7/Vanwyrm_Cryst_icon.png/300px-Vanwyrm_Cryst_icon.png",
+    "element": [
+      "Ice",
+      "Dark"
+    ],
+    "work_suitability": {
+      "cooling": 2,
+      "transporting": 3
+    },
+    "drops": [
+      "Bone",
+      "Ice Organ",
+      "Sapphire"
+    ],
+    "breeding_rank": 620,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Vanwyrm_Cryst",
+    "local_icon": "public/300px-Vanwyrm_Cryst_icon.png",
+    "combi_duplicate_priority": 7150000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Vanwyrm",
+        "id": "071"
+      },
+      {
+        "name": "Foxcicle",
+        "id": "057"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "072",
+    "name": "Bushi",
+    "picture": "https://palworld.wiki.gg/images/thumb/1/1d/Bushi_icon.png/300px-Bushi_icon.png",
+    "element": [
+      "Fire"
+    ],
+    "work_suitability": {
+      "kindling": 2,
+      "handiwork": 1,
+      "gathering": 1,
+      "lumbering": 3,
+      "transporting": 2
+    },
+    "drops": [
+      "Bone",
+      "Ingot"
+    ],
+    "breeding_rank": 640,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Bushi",
+    "local_icon": "public/300px-Bushi_icon.png",
+    "combi_duplicate_priority": 6410000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "072B",
+    "name": "Bushi Noct",
+    "picture": "https://palworld.wiki.gg/images/thumb/0/0e/Bushi_Noct_icon.png/300px-Bushi_Noct_icon.png",
+    "element": [
+      "Fire",
+      "Dark"
+    ],
+    "work_suitability": {
+      "kindling": 2,
+      "handiwork": 1,
+      "gathering": 1,
+      "lumbering": 3,
+      "transporting": 2
+    },
+    "drops": [],
+    "breeding_rank": 650,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Bushi_Noct",
+    "local_icon": "public/300px-Bushi_Noct_icon.png",
+    "combi_duplicate_priority": 6400000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Bushi",
+        "id": "072"
+      },
+      {
+        "name": "Sootseer",
+        "id": "118"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "073",
+    "name": "Beakon",
+    "picture": "https://palworld.wiki.gg/images/thumb/b/b7/Beakon_icon.png/300px-Beakon_icon.png",
+    "element": [
+      "Electric"
+    ],
+    "work_suitability": {
+      "generating_electricity": 2,
+      "gathering": 1,
+      "transporting": 3
+    },
+    "drops": [
+      "Electric Organ"
+    ],
+    "breeding_rank": 220,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Beakon",
+    "local_icon": "public/300px-Beakon_icon.png",
+    "combi_duplicate_priority": 6540000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "074",
+    "name": "Ragnahawk",
+    "picture": "https://palworld.wiki.gg/images/thumb/6/6f/Ragnahawk_icon.png/300px-Ragnahawk_icon.png",
+    "element": [
+      "Fire"
+    ],
+    "work_suitability": {
+      "kindling": 3,
+      "transporting": 3
+    },
+    "drops": [
+      "Flame Organ"
+    ],
+    "breeding_rank": 380,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Ragnahawk",
+    "local_icon": "public/300px-Ragnahawk_icon.png",
+    "combi_duplicate_priority": 6420000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "075",
+    "name": "Katress",
+    "picture": "https://palworld.wiki.gg/images/thumb/8/85/Katress_icon.png/300px-Katress_icon.png",
+    "element": [
+      "Dark"
+    ],
+    "work_suitability": {
+      "handiwork": 2,
+      "medicine_production": 2,
+      "transporting": 2
+    },
+    "drops": [
+      "Leather",
+      "Katress Hair",
+      "High Grade Technical Manual"
+    ],
+    "breeding_rank": 700,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Katress",
+    "local_icon": "public/300px-Katress_icon.png",
+    "combi_duplicate_priority": 6570000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "075B",
+    "name": "Katress Ignis",
+    "picture": "https://palworld.wiki.gg/images/thumb/d/da/Katress_Ignis_icon.png/300px-Katress_Ignis_icon.png",
+    "element": [
+      "Dark",
+      "Fire"
+    ],
+    "work_suitability": {
+      "kindling": 2,
+      "handiwork": 2,
+      "medicine_production": 2,
+      "transporting": 2
+    },
+    "drops": [],
+    "breeding_rank": 690,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Katress_Ignis",
+    "local_icon": "public/300px-Katress_Ignis_icon.png",
+    "combi_duplicate_priority": 6560000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Katress",
+        "id": "075"
+      },
+      {
+        "name": "Wixen",
+        "id": "076"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "076",
+    "name": "Wixen",
+    "picture": "https://palworld.wiki.gg/images/thumb/a/a9/Wixen_icon.png/300px-Wixen_icon.png",
+    "element": [
+      "Fire"
+    ],
+    "work_suitability": {
+      "kindling": 2,
+      "handiwork": 3,
+      "transporting": 2
+    },
+    "drops": [
+      "Flame Organ",
+      "High Grade Technical Manual"
+    ],
+    "breeding_rank": 1160,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Wixen",
+    "local_icon": "public/300px-Wixen_icon.png",
+    "combi_duplicate_priority": 6950000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "076B",
+    "name": "Wixen Noct",
+    "picture": "https://palworld.wiki.gg/images/thumb/4/46/Wixen_Noct_icon.png/300px-Wixen_Noct_icon.png",
+    "element": [
+      "Fire",
+      "Dark"
+    ],
+    "work_suitability": {
+      "kindling": 2,
+      "handiwork": 3,
+      "transporting": 2
+    },
+    "drops": [],
+    "breeding_rank": 1150,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Wixen_Noct",
+    "local_icon": "public/300px-Wixen_Noct_icon.png",
+    "combi_duplicate_priority": 6940000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Katress",
+        "id": "075"
+      },
+      {
+        "name": "Wixen",
+        "id": "076"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "077",
+    "name": "Verdash",
+    "picture": "https://palworld.wiki.gg/images/thumb/a/a2/Verdash_icon.png/300px-Verdash_icon.png",
+    "element": [
+      "Grass"
+    ],
+    "work_suitability": {
+      "planting": 2,
+      "handiwork": 3,
+      "gathering": 3,
+      "lumbering": 2,
+      "transporting": 2
+    },
+    "drops": [
+      "Leather",
+      "Bone"
+    ],
+    "breeding_rank": 990,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Verdash",
+    "local_icon": "public/300px-Verdash_icon.png",
+    "combi_duplicate_priority": 6710000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "078",
+    "name": "Vaelet",
+    "picture": "https://palworld.wiki.gg/images/thumb/1/1d/Vaelet_icon.png/300px-Vaelet_icon.png",
+    "element": [
+      "Grass"
+    ],
+    "work_suitability": {
+      "planting": 2,
+      "handiwork": 2,
+      "gathering": 2,
+      "medicine_production": 3,
+      "transporting": 1
+    },
+    "drops": [
+      "Low Grade Medical Supplies",
+      "Tomato Seeds"
+    ],
+    "breeding_rank": 1050,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Vaelet",
+    "local_icon": "public/300px-Vaelet_icon.png",
+    "combi_duplicate_priority": 6850000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "079",
+    "name": "Sibelyx",
+    "picture": "https://palworld.wiki.gg/images/thumb/4/49/Sibelyx_icon.png/300px-Sibelyx_icon.png",
+    "element": [
+      "Ice"
+    ],
+    "work_suitability": {
+      "medicine_production": 2,
+      "cooling": 2,
+      "farming": 1
+    },
+    "drops": [
+      "High Quality Cloth",
+      "Ice Organ"
+    ],
+    "breeding_rank": 450,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Sibelyx",
+    "local_icon": "public/300px-Sibelyx_icon.png",
+    "combi_duplicate_priority": 6970000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "080",
+    "name": "Elphidran",
+    "picture": "https://palworld.wiki.gg/images/thumb/8/8d/Elphidran_icon.png/300px-Elphidran_icon.png",
+    "element": [
+      "Dragon"
+    ],
+    "work_suitability": {
+      "lumbering": 2
+    },
+    "drops": [
+      "High Quality Pal Oil"
+    ],
+    "breeding_rank": 540,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Elphidran",
+    "local_icon": "public/300px-Elphidran_icon.png",
+    "combi_duplicate_priority": 7400000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "080B",
+    "name": "Elphidran Aqua",
+    "picture": "https://palworld.wiki.gg/images/thumb/f/fd/Elphidran_Aqua_icon.png/300px-Elphidran_Aqua_icon.png",
+    "element": [
+      "Dragon",
+      "Water"
+    ],
+    "work_suitability": {
+      "watering": 3,
+      "lumbering": 2
+    },
+    "drops": [
+      "High Quality Pal Oil"
+    ],
+    "breeding_rank": 530,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Elphidran_Aqua",
+    "local_icon": "public/300px-Elphidran_Aqua_icon.png",
+    "combi_duplicate_priority": 7390000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Elphidran",
+        "id": "080"
+      },
+      {
+        "name": "Surfent",
+        "id": "065"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "081",
+    "name": "Kelpsea",
+    "picture": "https://palworld.wiki.gg/images/thumb/5/5f/Kelpsea_icon.png/300px-Kelpsea_icon.png",
+    "element": [
+      "Water"
+    ],
+    "work_suitability": {
+      "watering": 1,
+      "farming": 1
+    },
+    "drops": [
+      "Raw Kelpsea",
+      "Pal Fluids"
+    ],
+    "breeding_rank": 1260,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Kelpsea",
+    "local_icon": "public/300px-Kelpsea_icon.png",
+    "combi_duplicate_priority": 6910000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "081B",
+    "name": "Kelpsea Ignis",
+    "picture": "https://palworld.wiki.gg/images/thumb/0/05/Kelpsea_Ignis_icon.png/300px-Kelpsea_Ignis_icon.png",
+    "element": [
+      "Fire"
+    ],
+    "work_suitability": {
+      "kindling": 1,
+      "farming": 1
+    },
+    "drops": [
+      "Raw Kelpsea",
+      "Flame Organ"
+    ],
+    "breeding_rank": 1270,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Kelpsea_Ignis",
+    "local_icon": "public/300px-Kelpsea_Ignis_icon.png",
+    "combi_duplicate_priority": 6900000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "082",
+    "name": "Azurobe",
+    "picture": "https://palworld.wiki.gg/images/thumb/b/bc/Azurobe_icon.png/300px-Azurobe_icon.png",
+    "element": [
+      "Water",
+      "Dragon"
+    ],
+    "work_suitability": {
+      "watering": 3
+    },
+    "drops": [
+      "Cloth"
+    ],
+    "breeding_rank": 500,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Azurobe",
+    "local_icon": "public/300px-Azurobe_icon.png",
+    "combi_duplicate_priority": 7320000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "082B",
+    "name": "Azurobe Cryst",
+    "picture": "https://palworld.wiki.gg/images/thumb/3/30/Azurobe_Cryst_icon.png/300px-Azurobe_Cryst_icon.png",
+    "element": [
+      "Ice",
+      "Dragon"
+    ],
+    "work_suitability": {
+      "cooling": 3
+    },
+    "drops": [],
+    "breeding_rank": 480,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Azurobe_Cryst",
+    "local_icon": "public/300px-Azurobe_Cryst_icon.png",
+    "combi_duplicate_priority": 578,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Azurobe",
+        "id": "082"
+      },
+      {
+        "name": "Frostplume",
+        "id": "143"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "083",
+    "name": "Cryolinx",
+    "picture": "https://palworld.wiki.gg/images/thumb/3/38/Cryolinx_icon.png/300px-Cryolinx_icon.png",
+    "element": [
+      "Ice"
+    ],
+    "work_suitability": {
+      "handiwork": 1,
+      "lumbering": 2,
+      "cooling": 3
+    },
+    "drops": [
+      "Ice Organ"
+    ],
+    "breeding_rank": 130,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Cryolinx",
+    "local_icon": "public/300px-Cryolinx_icon.png",
+    "combi_duplicate_priority": 7370000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "083B",
+    "name": "Cryolinx Terra",
+    "picture": "https://palworld.wiki.gg/images/thumb/5/56/Cryolinx_Terra_icon.png/300px-Cryolinx_Terra_icon.png",
+    "element": [
+      "Ground"
+    ],
+    "work_suitability": {
+      "handiwork": 1,
+      "lumbering": 2,
+      "mining": 3,
+      "transporting": 3
+    },
+    "drops": [],
+    "breeding_rank": 160,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Cryolinx_Terra",
+    "local_icon": "public/300px-Cryolinx_Terra_icon.png",
+    "combi_duplicate_priority": 5370000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Cryolinx",
+        "id": "083"
+      },
+      {
+        "name": "Dazemu",
+        "id": "123"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "084",
+    "name": "Blazehowl",
+    "picture": "https://palworld.wiki.gg/images/thumb/9/97/Blazehowl_icon.png/300px-Blazehowl_icon.png",
+    "element": [
+      "Fire"
+    ],
+    "work_suitability": {
+      "kindling": 3,
+      "lumbering": 2
+    },
+    "drops": [
+      "Flame Organ"
+    ],
+    "breeding_rank": 710,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Blazehowl",
+    "local_icon": "public/300px-Blazehowl_icon.png",
+    "combi_duplicate_priority": 6660000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "084B",
+    "name": "Blazehowl Noct",
+    "picture": "https://palworld.wiki.gg/images/thumb/d/d1/Blazehowl_Noct_icon.png/300px-Blazehowl_Noct_icon.png",
+    "element": [
+      "Fire",
+      "Dark"
+    ],
+    "work_suitability": {
+      "kindling": 3,
+      "lumbering": 2
+    },
+    "drops": [
+      "Flame Organ"
+    ],
+    "breeding_rank": 670,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Blazehowl_Noct",
+    "local_icon": "public/300px-Blazehowl_Noct_icon.png",
+    "combi_duplicate_priority": 6650000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Blazehowl",
+        "id": "084"
+      },
+      {
+        "name": "Felbat",
+        "id": "094"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "085",
+    "name": "Relaxaurus",
+    "picture": "https://palworld.wiki.gg/images/thumb/6/6f/Relaxaurus_icon.png/300px-Relaxaurus_icon.png",
+    "element": [
+      "Dragon",
+      "Water"
+    ],
+    "work_suitability": {
+      "watering": 2,
+      "transporting": 1
+    },
+    "drops": [
+      "High Quality Pal Oil",
+      "Ruby"
+    ],
+    "breeding_rank": 280,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Relaxaurus",
+    "local_icon": "public/300px-Relaxaurus_icon.png",
+    "combi_duplicate_priority": 7230000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "085B",
+    "name": "Relaxaurus Lux",
+    "picture": "https://palworld.wiki.gg/images/thumb/7/7e/Relaxaurus_Lux_icon.png/300px-Relaxaurus_Lux_icon.png",
+    "element": [
+      "Dragon",
+      "Electric"
+    ],
+    "work_suitability": {
+      "generating_electricity": 3,
+      "transporting": 1
+    },
+    "drops": [
+      "High Quality Pal Oil",
+      "Electric Organ",
+      "Sapphire"
+    ],
+    "breeding_rank": 270,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Relaxaurus_Lux",
+    "local_icon": "public/300px-Relaxaurus_Lux_icon.png",
+    "combi_duplicate_priority": 7220000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Relaxaurus",
+        "id": "085"
+      },
+      {
+        "name": "Sparkit",
+        "id": "007"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "086",
+    "name": "Broncherry",
+    "picture": "https://palworld.wiki.gg/images/thumb/5/5f/Broncherry_icon.png/300px-Broncherry_icon.png",
+    "element": [
+      "Grass"
+    ],
+    "work_suitability": {
+      "planting": 3
+    },
+    "drops": [
+      "Broncherry Meat",
+      "Tomato Seeds"
+    ],
+    "breeding_rank": 860,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Broncherry",
+    "local_icon": "public/300px-Broncherry_icon.png",
+    "combi_duplicate_priority": 7050000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "086B",
+    "name": "Broncherry Aqua",
+    "picture": "https://palworld.wiki.gg/images/thumb/3/38/Broncherry_Aqua_icon.png/300px-Broncherry_Aqua_icon.png",
+    "element": [
+      "Grass",
+      "Water"
+    ],
+    "work_suitability": {
+      "watering": 3
+    },
+    "drops": [
+      "Broncherry Meat",
+      "Lettuce Seeds"
+    ],
+    "breeding_rank": 840,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Broncherry_Aqua",
+    "local_icon": "public/300px-Broncherry_Aqua_icon.png",
+    "combi_duplicate_priority": 7040000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Broncherry",
+        "id": "086"
+      },
+      {
+        "name": "Fuack",
+        "id": "006"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "087",
+    "name": "Petallia",
+    "picture": "https://palworld.wiki.gg/images/thumb/6/65/Petallia_icon.png/300px-Petallia_icon.png",
+    "element": [
+      "Grass"
+    ],
+    "work_suitability": {
+      "planting": 3,
+      "handiwork": 2,
+      "gathering": 2,
+      "medicine_production": 2,
+      "transporting": 1
+    },
+    "drops": [
+      "Beautiful Flower"
+    ],
+    "breeding_rank": 780,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Petallia",
+    "local_icon": "public/300px-Petallia_icon.png",
+    "combi_duplicate_priority": 6370000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "088",
+    "name": "Reptyro",
+    "picture": "https://palworld.wiki.gg/images/thumb/f/f5/Reptyro_icon.png/300px-Reptyro_icon.png",
+    "element": [
+      "Fire",
+      "Ground"
+    ],
+    "work_suitability": {
+      "kindling": 3,
+      "mining": 3
+    },
+    "drops": [
+      "Flame Organ"
+    ],
+    "breeding_rank": 320,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Reptyro",
+    "local_icon": "public/300px-Reptyro_icon.png",
+    "combi_duplicate_priority": 7280000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "088B",
+    "name": "Reptyro Cryst",
+    "picture": "https://palworld.wiki.gg/images/thumb/c/c1/Reptyro_Cryst_icon.png/300px-Reptyro_Cryst_icon.png",
+    "element": [
+      "Ice",
+      "Ground"
+    ],
+    "work_suitability": {
+      "mining": 3,
+      "cooling": 3
+    },
+    "drops": [
+      "Ice Organ"
+    ],
+    "breeding_rank": 230,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Ice_Reptyro",
+    "local_icon": "public/300px-Reptyro_Cryst_icon.png",
+    "combi_duplicate_priority": 7270000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Reptyro",
+        "id": "088"
+      },
+      {
+        "name": "Foxcicle",
+        "id": "057"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "089",
+    "name": "Kingpaca",
+    "picture": "https://palworld.wiki.gg/images/thumb/a/a1/Kingpaca_icon.png/300px-Kingpaca_icon.png",
+    "element": [
+      "Neutral"
+    ],
+    "work_suitability": {
+      "gathering": 1
+    },
+    "drops": [
+      "Wool"
+    ],
+    "breeding_rank": 470,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Kingpaca",
+    "local_icon": "public/300px-Kingpaca_icon.png",
+    "combi_duplicate_priority": 6640000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "089B",
+    "name": "Kingpaca Cryst",
+    "picture": "https://palworld.wiki.gg/images/thumb/a/a2/Kingpaca_Cryst_icon.png/300px-Kingpaca_Cryst_icon.png",
+    "element": [
+      "Ice"
+    ],
+    "work_suitability": {
+      "gathering": 1,
+      "cooling": 3
+    },
+    "drops": [
+      "Wool",
+      "Ice Organ"
+    ],
+    "breeding_rank": 440,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Ice_Kingpaca",
+    "local_icon": "public/300px-Kingpaca_Cryst_icon.png",
+    "combi_duplicate_priority": 6630000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Kingpaca",
+        "id": "089"
+      },
+      {
+        "name": "Reindrix",
+        "id": "059"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "090",
+    "name": "Mammorest",
+    "picture": "https://palworld.wiki.gg/images/thumb/2/27/Mammorest_icon.png/300px-Mammorest_icon.png",
+    "element": [
+      "Grass"
+    ],
+    "work_suitability": {
+      "planting": 2,
+      "lumbering": 2,
+      "mining": 2
+    },
+    "drops": [
+      "High Quality Pal Oil",
+      "Leather",
+      "Mammorest Meat"
+    ],
+    "breeding_rank": 300,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Mammorest",
+    "local_icon": "public/300px-Mammorest_icon.png",
+    "combi_duplicate_priority": 7080000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "090B",
+    "name": "Mammorest Cryst",
+    "picture": "https://palworld.wiki.gg/images/thumb/e/e4/Mammorest_Cryst_icon.png/300px-Mammorest_Cryst_icon.png",
+    "element": [
+      "Ice"
+    ],
+    "work_suitability": {
+      "lumbering": 2,
+      "mining": 2,
+      "cooling": 2
+    },
+    "drops": [
+      "High Quality Pal Oil",
+      "Leather",
+      "Mammorest Meat"
+    ],
+    "breeding_rank": 290,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Mammorest_Cryst",
+    "local_icon": "public/300px-Mammorest_Cryst_icon.png",
+    "combi_duplicate_priority": 7070000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Mammorest",
+        "id": "090"
+      },
+      {
+        "name": "Wumpo",
+        "id": "091"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "091",
+    "name": "Wumpo",
+    "picture": "https://palworld.wiki.gg/images/thumb/a/a7/Wumpo_icon.png/300px-Wumpo_icon.png",
+    "element": [
+      "Ice"
+    ],
+    "work_suitability": {
+      "handiwork": 2,
+      "lumbering": 3,
+      "cooling": 2,
+      "transporting": 4
+    },
+    "drops": [
+      "Ice Organ",
+      "Beautiful Flower"
+    ],
+    "breeding_rank": 460,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Wumpo",
+    "local_icon": "public/300px-Wumpo_icon.png",
+    "combi_duplicate_priority": 6870000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "091B",
+    "name": "Wumpo Botan",
+    "picture": "https://palworld.wiki.gg/images/thumb/d/da/Wumpo_Botan_icon.png/300px-Wumpo_Botan_icon.png",
+    "element": [
+      "Grass"
+    ],
+    "work_suitability": {
+      "planting": 1,
+      "handiwork": 2,
+      "lumbering": 3,
+      "transporting": 4
+    },
+    "drops": [
+      "Lettuce Seeds",
+      "Tomato Seeds",
+      "Beautiful Flower"
+    ],
+    "breeding_rank": 480,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Wumpo_Botan",
+    "local_icon": "public/300px-Wumpo_Botan_icon.png",
+    "combi_duplicate_priority": 6860000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "092",
+    "name": "Warsect",
+    "picture": "https://palworld.wiki.gg/images/thumb/8/89/Warsect_icon.png/300px-Warsect_icon.png",
+    "element": [
+      "Grass",
+      "Ground"
+    ],
+    "work_suitability": {
+      "planting": 1,
+      "handiwork": 1,
+      "lumbering": 3,
+      "transporting": 3
+    },
+    "drops": [
+      "Honey"
+    ],
+    "breeding_rank": 340,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Warsect",
+    "local_icon": "public/300px-Warsect_icon.png",
+    "combi_duplicate_priority": 6530000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "092B",
+    "name": "Warsect Terra",
+    "picture": "https://palworld.wiki.gg/images/thumb/8/86/Warsect_Terra_icon.png/300px-Warsect_Terra_icon.png",
+    "element": [
+      "Ground"
+    ],
+    "work_suitability": {
+      "handiwork": 1,
+      "mining": 3,
+      "transporting": 3
+    },
+    "drops": [],
+    "breeding_rank": 275,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Warsect_Terra",
+    "local_icon": "public/300px-Warsect_Terra_icon.png",
+    "combi_duplicate_priority": 6520000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Warsect",
+        "id": "092"
+      },
+      {
+        "name": "Digtoise",
+        "id": "067"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "093",
+    "name": "Fenglope",
+    "picture": "https://palworld.wiki.gg/images/thumb/a/a5/Fenglope_icon.png/300px-Fenglope_icon.png",
+    "element": [
+      "Neutral"
+    ],
+    "work_suitability": {
+      "lumbering": 2
+    },
+    "drops": [
+      "Leather",
+      "Horn"
+    ],
+    "breeding_rank": 980,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Fenglope",
+    "local_icon": "public/300px-Fenglope_icon.png",
+    "combi_duplicate_priority": 7290000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "093B",
+    "name": "Fenglope Lux",
+    "picture": "https://palworld.wiki.gg/images/thumb/a/a1/Fenglope_Lux_icon.png/300px-Fenglope_Lux_icon.png",
+    "element": [
+      "Electric"
+    ],
+    "work_suitability": {
+      "generating_electricity": 2,
+      "lumbering": 2
+    },
+    "drops": [],
+    "breeding_rank": 835,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Fenglope_Lux",
+    "local_icon": "public/300px-Fenglope_Lux_icon.png",
+    "combi_duplicate_priority": 5360000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Fenglope",
+        "id": "093"
+      },
+      {
+        "name": "Azurmane",
+        "id": "136"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "094",
+    "name": "Felbat",
+    "picture": "https://palworld.wiki.gg/images/thumb/1/10/Felbat_icon.png/300px-Felbat_icon.png",
+    "element": [
+      "Dark"
+    ],
+    "work_suitability": {
+      "medicine_production": 3
+    },
+    "drops": [
+      "Cloth",
+      "Small Pal Soul"
+    ],
+    "breeding_rank": 1010,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Felbat",
+    "local_icon": "public/300px-Felbat_icon.png",
+    "combi_duplicate_priority": 7060000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "095",
+    "name": "Quivern",
+    "picture": "https://palworld.wiki.gg/images/thumb/d/d5/Quivern_icon.png/300px-Quivern_icon.png",
+    "element": [
+      "Dragon"
+    ],
+    "work_suitability": {
+      "handiwork": 1,
+      "gathering": 2,
+      "mining": 2,
+      "transporting": 3
+    },
+    "drops": [
+      "High Quality Pal Oil"
+    ],
+    "breeding_rank": 350,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Quivern",
+    "local_icon": "public/300px-Quivern_icon.png",
+    "combi_duplicate_priority": 6460000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "095B",
+    "name": "Quivern Botan",
+    "picture": "https://palworld.wiki.gg/images/thumb/4/43/Quivern_Botan_icon.png/300px-Quivern_Botan_icon.png",
+    "element": [
+      "Dragon",
+      "Grass"
+    ],
+    "work_suitability": {
+      "planting": 2,
+      "handiwork": 1,
+      "gathering": 2,
+      "transporting": 3
+    },
+    "drops": [
+      "High Quality Pal Oil"
+    ],
+    "breeding_rank": 340,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Quivern_Botan",
+    "local_icon": "public/300px-Quivern_Botan_icon.png",
+    "combi_duplicate_priority": 6450000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Quivern",
+        "id": "095"
+      },
+      {
+        "name": "Lullu",
+        "id": "115"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "096",
+    "name": "Blazamut",
+    "picture": "https://palworld.wiki.gg/images/thumb/7/72/Blazamut_icon.png/300px-Blazamut_icon.png",
+    "element": [
+      "Fire"
+    ],
+    "work_suitability": {
+      "kindling": 3,
+      "mining": 4
+    },
+    "drops": [
+      "Coal",
+      "Flame Organ"
+    ],
+    "breeding_rank": 10,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Blazamut",
+    "local_icon": "public/300px-Blazamut_icon.png",
+    "combi_duplicate_priority": 7020000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "096B",
+    "name": "Blazamut Ryu",
+    "picture": "https://palworld.wiki.gg/images/thumb/9/91/Blazamut_Ryu_icon.png/300px-Blazamut_Ryu_icon.png",
+    "element": [
+      "Dragon",
+      "Fire"
+    ],
+    "work_suitability": {
+      "kindling": 3,
+      "mining": 4
+    },
+    "drops": [],
+    "breeding_rank": 9,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Blazamut_Ryu",
+    "local_icon": "public/300px-Blazamut_Ryu_icon.png",
+    "combi_duplicate_priority": 7010000,
+    "isUnique": false,
+    "breed_self": true
+  },
+  {
+    "id": "097",
+    "name": "Helzephyr",
+    "picture": "https://palworld.wiki.gg/images/thumb/9/98/Helzephyr_icon.png/300px-Helzephyr_icon.png",
+    "element": [
+      "Dark"
+    ],
+    "work_suitability": {
+      "transporting": 3
+    },
+    "drops": [
+      "Venom Gland",
+      "Medium Pal Soul"
+    ],
+    "breeding_rank": 190,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Helzephyr",
+    "local_icon": "public/300px-Helzephyr_icon.png",
+    "combi_duplicate_priority": 6440000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "097B",
+    "name": "Helzephyr Lux",
+    "picture": "https://palworld.wiki.gg/images/thumb/7/74/Helzephyr_Lux_icon.png/300px-Helzephyr_Lux_icon.png",
+    "element": [
+      "Dark",
+      "Electric"
+    ],
+    "work_suitability": {
+      "generating_electricity": 3,
+      "transporting": 3
+    },
+    "drops": [],
+    "breeding_rank": 180,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Helzephyr_Lux",
+    "local_icon": "public/300px-Helzephyr_Lux_icon.png",
+    "combi_duplicate_priority": 6430000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Helzephyr",
+        "id": "097"
+      },
+      {
+        "name": "Beakon",
+        "id": "073"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "098",
+    "name": "Astegon",
+    "picture": "https://palworld.wiki.gg/images/thumb/d/d0/Astegon_icon.png/300px-Astegon_icon.png",
+    "element": [
+      "Dragon",
+      "Dark"
+    ],
+    "work_suitability": {
+      "handiwork": 1,
+      "mining": 4
+    },
+    "drops": [
+      "Paldium Fragment",
+      "Pure Quartz"
+    ],
+    "breeding_rank": 150,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Astegon",
+    "local_icon": "public/300px-Astegon_icon.png",
+    "combi_duplicate_priority": 6720000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "099",
+    "name": "Menasting",
+    "picture": "https://palworld.wiki.gg/images/thumb/2/23/Menasting_icon.png/300px-Menasting_icon.png",
+    "element": [
+      "Dark",
+      "Ground"
+    ],
+    "work_suitability": {
+      "lumbering": 2,
+      "mining": 3
+    },
+    "drops": [
+      "Coal",
+      "Venom Gland"
+    ],
+    "breeding_rank": 260,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Menasting",
+    "local_icon": "public/300px-Menasting_icon.png",
+    "combi_duplicate_priority": 6340000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "099B",
+    "name": "Menasting Terra",
+    "picture": "https://palworld.wiki.gg/images/thumb/1/11/Menasting_Terra_icon.png/300px-Menasting_Terra_icon.png",
+    "element": [
+      "Ground"
+    ],
+    "work_suitability": {
+      "lumbering": 2,
+      "mining": 3
+    },
+    "drops": [],
+    "breeding_rank": 250,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Menasting_Terra",
+    "local_icon": "public/300px-Menasting_Terra_icon.png",
+    "combi_duplicate_priority": 6330000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Menasting",
+        "id": "099"
+      },
+      {
+        "name": "Knocklem",
+        "id": "120"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "100",
+    "name": "Anubis",
+    "picture": "https://palworld.wiki.gg/images/thumb/0/0e/Anubis_icon.png/300px-Anubis_icon.png",
+    "element": [
+      "Ground"
+    ],
+    "work_suitability": {
+      "handiwork": 4,
+      "mining": 3,
+      "transporting": 2
+    },
+    "drops": [
+      "Bone",
+      "Large Pal Soul",
+      "Innovative Technical Manual"
+    ],
+    "breeding_rank": 570,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Anubis",
+    "local_icon": "public/300px-Anubis_icon.png",
+    "combi_duplicate_priority": 7770000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "101",
+    "name": "Jormuntide",
+    "picture": "https://palworld.wiki.gg/images/thumb/e/e7/Jormuntide_icon.png/300px-Jormuntide_icon.png",
+    "element": [
+      "Dragon",
+      "Water"
+    ],
+    "work_suitability": {
+      "watering": 4
+    },
+    "drops": [
+      "Pal Fluids"
+    ],
+    "breeding_rank": 310,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Jormuntide",
+    "local_icon": "public/300px-Jormuntide_icon.png",
+    "combi_duplicate_priority": 7490000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "101B",
+    "name": "Jormuntide Ignis",
+    "picture": "https://palworld.wiki.gg/images/thumb/b/b8/Jormuntide_Ignis_icon.png/300px-Jormuntide_Ignis_icon.png",
+    "element": [
+      "Dragon",
+      "Fire"
+    ],
+    "work_suitability": {
+      "kindling": 4
+    },
+    "drops": [
+      "High Quality Pal Oil",
+      "Flame Organ"
+    ],
+    "breeding_rank": 315,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Jormuntide_Ignis",
+    "local_icon": "public/300px-Jormuntide_Ignis_icon.png",
+    "combi_duplicate_priority": 7480000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Jormuntide",
+        "id": "101"
+      },
+      {
+        "name": "Blazehowl",
+        "id": "084"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "102",
+    "name": "Suzaku",
+    "picture": "https://palworld.wiki.gg/images/thumb/0/0d/Suzaku_icon.png/300px-Suzaku_icon.png",
+    "element": [
+      "Fire"
+    ],
+    "work_suitability": {
+      "kindling": 3
+    },
+    "drops": [
+      "Flame Organ"
+    ],
+    "breeding_rank": 50,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Suzaku",
+    "local_icon": "public/300px-Suzaku_icon.png",
+    "combi_duplicate_priority": 7440000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "102B",
+    "name": "Suzaku Aqua",
+    "picture": "https://palworld.wiki.gg/images/thumb/9/98/Suzaku_Aqua_icon.png/300px-Suzaku_Aqua_icon.png",
+    "element": [
+      "Water"
+    ],
+    "work_suitability": {
+      "watering": 3
+    },
+    "drops": [
+      "Pal Fluids"
+    ],
+    "breeding_rank": 30,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Suzaku_Aqua",
+    "local_icon": "public/300px-Suzaku_Aqua_icon.png",
+    "combi_duplicate_priority": 7430000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Suzaku",
+        "id": "102"
+      },
+      {
+        "name": "Jormuntide",
+        "id": "101"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "103",
+    "name": "Grizzbolt",
+    "picture": "https://palworld.wiki.gg/images/thumb/3/3c/Grizzbolt_icon.png/300px-Grizzbolt_icon.png",
+    "element": [
+      "Electric"
+    ],
+    "work_suitability": {
+      "generating_electricity": 3,
+      "handiwork": 2,
+      "lumbering": 2,
+      "transporting": 3
+    },
+    "drops": [
+      "Electric Organ",
+      "Leather"
+    ],
+    "breeding_rank": 200,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Grizzbolt",
+    "local_icon": "public/300px-Grizzbolt_icon.png",
+    "combi_duplicate_priority": 7650000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Mossanda",
+        "id": "033"
+      },
+      {
+        "name": "Rayhound",
+        "id": "060"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "104",
+    "name": "Lyleen",
+    "picture": "https://palworld.wiki.gg/images/thumb/7/7d/Lyleen_icon.png/300px-Lyleen_icon.png",
+    "element": [
+      "Grass"
+    ],
+    "work_suitability": {
+      "planting": 4,
+      "handiwork": 3,
+      "gathering": 2,
+      "medicine_production": 3
+    },
+    "drops": [
+      "Low Grade Medical Supplies",
+      "Beautiful Flower",
+      "Innovative Technical Manual"
+    ],
+    "breeding_rank": 250,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Lyleen",
+    "local_icon": "public/300px-Lyleen_icon.png",
+    "combi_duplicate_priority": 6820000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Mossanda",
+        "id": "033"
+      },
+      {
+        "name": "Petallia",
+        "id": "087"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "104B",
+    "name": "Lyleen Noct",
+    "picture": "https://palworld.wiki.gg/images/thumb/6/6b/Lyleen_Noct_icon.png/300px-Lyleen_Noct_icon.png",
+    "element": [
+      "Dark"
+    ],
+    "work_suitability": {
+      "handiwork": 3,
+      "gathering": 2,
+      "medicine_production": 3
+    },
+    "drops": [
+      "Low Grade Medical Supplies",
+      "Beautiful Flower",
+      "Innovative Technical Manual"
+    ],
+    "breeding_rank": 210,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Lyleen_Noct",
+    "local_icon": "public/300px-Lyleen_Noct_icon.png",
+    "combi_duplicate_priority": 6810000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Lyleen",
+        "id": "104"
+      },
+      {
+        "name": "Menasting",
+        "id": "099"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "105",
+    "name": "Faleris",
+    "picture": "https://palworld.wiki.gg/images/thumb/b/b9/Faleris_icon.png/300px-Faleris_icon.png",
+    "element": [
+      "Fire"
+    ],
+    "work_suitability": {
+      "kindling": 3,
+      "transporting": 3
+    },
+    "drops": [
+      "Flame Organ"
+    ],
+    "breeding_rank": 370,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Faleris",
+    "local_icon": "public/300px-Faleris_icon.png",
+    "combi_duplicate_priority": 7030000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Vanwyrm",
+        "id": "071"
+      },
+      {
+        "name": "Anubis",
+        "id": "100"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "105B",
+    "name": "Faleris Aqua",
+    "picture": "https://palworld.wiki.gg/images/thumb/7/7e/Faleris_Aqua_icon.png/300px-Faleris_Aqua_icon.png",
+    "element": [
+      "Water"
+    ],
+    "work_suitability": {
+      "watering": 4,
+      "transporting": 3
+    },
+    "drops": [],
+    "breeding_rank": 245,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Faleris_Aqua",
+    "local_icon": "public/300px-Faleris_Aqua_icon.png",
+    "combi_duplicate_priority": 5350000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Faleris",
+        "id": "105"
+      },
+      {
+        "name": "Jormuntide",
+        "id": "101"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "106",
+    "name": "Orserk",
+    "picture": "https://palworld.wiki.gg/images/thumb/3/3e/Orserk_icon.png/300px-Orserk_icon.png",
+    "element": [
+      "Dragon",
+      "Electric"
+    ],
+    "work_suitability": {
+      "generating_electricity": 4,
+      "handiwork": 2,
+      "transporting": 3
+    },
+    "drops": [
+      "Electric Organ"
+    ],
+    "breeding_rank": 140,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Orserk",
+    "local_icon": "public/300px-Orserk_icon.png",
+    "combi_duplicate_priority": 6320000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Grizzbolt",
+        "id": "103"
+      },
+      {
+        "name": "Relaxaurus",
+        "id": "085"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "107",
+    "name": "Shadowbeak",
+    "picture": "https://palworld.wiki.gg/images/thumb/0/00/Shadowbeak_icon.png/300px-Shadowbeak_icon.png",
+    "element": [
+      "Dark"
+    ],
+    "work_suitability": {
+      "gathering": 1
+    },
+    "drops": [
+      "Pal Metal Ingot",
+      "Carbon Fiber",
+      "Innovative Technical Manual"
+    ],
+    "breeding_rank": 60,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Shadowbeak",
+    "local_icon": "public/300px-Shadowbeak_icon.png",
+    "combi_duplicate_priority": 6980000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Kitsun",
+        "id": "061"
+      },
+      {
+        "name": "Astegon",
+        "id": "098"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "108",
+    "name": "Paladius",
+    "picture": "https://palworld.wiki.gg/images/thumb/6/63/Paladius_icon.png/300px-Paladius_icon.png",
+    "element": [
+      "Neutral"
+    ],
+    "work_suitability": {
+      "lumbering": 2,
+      "mining": 2
+    },
+    "drops": [
+      "Pal Metal Ingot",
+      "Diamond"
+    ],
+    "breeding_rank": 80,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Paladius",
+    "local_icon": "public/300px-Paladius_icon.png",
+    "combi_duplicate_priority": 6510000,
+    "isUnique": false,
+    "breed_self": true
+  },
+  {
+    "id": "109",
+    "name": "Necromus",
+    "picture": "https://palworld.wiki.gg/images/thumb/1/17/Necromus_icon.png/300px-Necromus_icon.png",
+    "element": [
+      "Dark"
+    ],
+    "work_suitability": {
+      "lumbering": 2,
+      "mining": 2
+    },
+    "drops": [
+      "Pal Metal Ingot",
+      "Large Pal Soul"
+    ],
+    "breeding_rank": 70,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Necromus",
+    "local_icon": "public/300px-Necromus_icon.png",
+    "combi_duplicate_priority": 6380000,
+    "isUnique": false,
+    "breed_self": true
+  },
+  {
+    "id": "110",
+    "name": "Frostallion",
+    "picture": "https://palworld.wiki.gg/images/thumb/b/b1/Frostallion_icon.png/300px-Frostallion_icon.png",
+    "element": [
+      "Ice"
+    ],
+    "work_suitability": {
+      "cooling": 4
+    },
+    "drops": [
+      "Ice Organ",
+      "Diamond"
+    ],
+    "breeding_rank": 120,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Frostallion",
+    "local_icon": "public/300px-Frostallion_icon.png",
+    "combi_duplicate_priority": 7100000,
+    "isUnique": false,
+    "breed_self": true
+  },
+  {
+    "id": "110B",
+    "name": "Frostallion Noct",
+    "picture": "https://palworld.wiki.gg/images/thumb/a/a0/Frostallion_Noct_icon.png/300px-Frostallion_Noct_icon.png",
+    "element": [
+      "Dark"
+    ],
+    "work_suitability": {
+      "gathering": 4
+    },
+    "drops": [
+      "Large Pal Soul",
+      "Pure Quartz"
+    ],
+    "breeding_rank": 100,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Frostallion_Noct",
+    "local_icon": "public/300px-Frostallion_Noct_icon.png",
+    "combi_duplicate_priority": 7090000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Frostallion",
+        "id": "110"
+      },
+      {
+        "name": "Helzephyr",
+        "id": "097"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "111",
+    "name": "Jetragon",
+    "picture": "https://palworld.wiki.gg/images/thumb/a/ab/Jetragon_icon.png/300px-Jetragon_icon.png",
+    "element": [
+      "Dragon"
+    ],
+    "work_suitability": {
+      "gathering": 3
+    },
+    "drops": [
+      "Pure Quartz",
+      "Polymer",
+      "Carbon Fiber",
+      "Diamond"
+    ],
+    "breeding_rank": 90,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Jetragon",
+    "local_icon": "public/300px-Jetragon_icon.png",
+    "combi_duplicate_priority": 6690000,
+    "isUnique": false,
+    "breed_self": true
+  },
+  {
+    "id": "112",
+    "name": "Bellanoir",
+    "picture": "https://palworld.wiki.gg/images/thumb/b/b9/Bellanoir_icon.png/300px-Bellanoir_icon.png",
+    "element": [
+      "Dark"
+    ],
+    "work_suitability": {
+      "handiwork": 2,
+      "medicine_production": 4,
+      "transporting": 2
+    },
+    "drops": [
+      "Huge Dark Egg",
+      "Training Manual (XL)",
+      "Multiclimate Undershirt +2"
+    ],
+    "breeding_rank": 1,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Bellanoir",
+    "local_icon": "public/300px-Bellanoir_icon.png",
+    "combi_duplicate_priority": 6270000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Bellanoir",
+        "id": "112"
+      },
+      {
+        "name": "Bellanoir Libero",
+        "id": "112B"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "112B",
+    "name": "Bellanoir Libero",
+    "picture": "https://palworld.wiki.gg/images/thumb/2/28/Bellanoir_Libero_icon.png/300px-Bellanoir_Libero_icon.png",
+    "element": [
+      "Dark"
+    ],
+    "work_suitability": {
+      "handiwork": 2,
+      "medicine_production": 4,
+      "transporting": 2
+    },
+    "drops": [
+      "Huge Dark Egg",
+      "Training Manual (XL)",
+      "Multiclimate Undershirt +2"
+    ],
+    "breeding_rank": 1,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Bellanoir_Libero",
+    "local_icon": "public/300px-Bellanoir_Libero_icon.png",
+    "combi_duplicate_priority": 6260000,
+    "isUnique": false,
+    "breed_self": true
+  },
+  {
+    "id": "113",
+    "name": "Selyne",
+    "picture": "https://palworld.wiki.gg/images/thumb/5/50/Selyne_icon.png/300px-Selyne_icon.png",
+    "element": [
+      "Dark",
+      "Neutral"
+    ],
+    "work_suitability": {
+      "handiwork": 4,
+      "medicine_production": 3,
+      "transporting": 3
+    },
+    "drops": [],
+    "breeding_rank": 345,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Selyne",
+    "local_icon": "public/300px-Selyne_icon.png",
+    "combi_duplicate_priority": 6250000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Paladius",
+        "id": "108"
+      },
+      {
+        "name": "Lunaris",
+        "id": "063"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "114",
+    "name": "Croajiro",
+    "picture": "https://palworld.wiki.gg/images/thumb/c/cc/Croajiro_icon.png/300px-Croajiro_icon.png",
+    "element": [
+      "Water"
+    ],
+    "work_suitability": {
+      "watering": 1,
+      "handiwork": 1,
+      "gathering": 1,
+      "transporting": 1
+    },
+    "drops": [],
+    "breeding_rank": 795,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Croajiro",
+    "local_icon": "public/300px-Croajiro_icon.png",
+    "combi_duplicate_priority": 6240000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "114B",
+    "name": "Croajiro Noct",
+    "picture": "https://palworld.wiki.gg/images/thumb/3/34/Croajiro_Noct_icon.png/300px-Croajiro_Noct_icon.png",
+    "element": [
+      "Water",
+      "Dark"
+    ],
+    "work_suitability": {
+      "watering": 1,
+      "handiwork": 1,
+      "gathering": 1,
+      "transporting": 1
+    },
+    "drops": [],
+    "breeding_rank": 765,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Croajiro_Noct",
+    "local_icon": "public/300px-Croajiro_Noct_icon.png",
+    "combi_duplicate_priority": 76500,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Croajiro",
+        "id": "114"
+      },
+      {
+        "name": "Bushi Noct",
+        "id": "072B"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "115",
+    "name": "Lullu",
+    "picture": "https://palworld.wiki.gg/images/thumb/e/ed/Lullu_icon.png/300px-Lullu_icon.png",
+    "element": [
+      "Grass"
+    ],
+    "work_suitability": {
+      "planting": 2,
+      "handiwork": 2,
+      "medicine_production": 2
+    },
+    "drops": [],
+    "breeding_rank": 905,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Lullu",
+    "local_icon": "public/300px-Lullu_icon.png",
+    "combi_duplicate_priority": 6230000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "116",
+    "name": "Shroomer",
+    "picture": "https://palworld.wiki.gg/images/thumb/6/65/Shroomer_icon.png/300px-Shroomer_icon.png",
+    "element": [
+      "Grass"
+    ],
+    "work_suitability": {
+      "planting": 2,
+      "handiwork": 1,
+      "gathering": 2,
+      "lumbering": 2
+    },
+    "drops": [],
+    "breeding_rank": 720,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Shroomer",
+    "local_icon": "public/300px-Shroomer_icon.png",
+    "combi_duplicate_priority": 6220000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "116B",
+    "name": "Shroomer Noct",
+    "picture": "https://palworld.wiki.gg/images/thumb/b/ba/Shroomer_Noct_icon.png/300px-Shroomer_Noct_icon.png",
+    "element": [
+      "Grass",
+      "Dark"
+    ],
+    "work_suitability": {
+      "planting": 2,
+      "handiwork": 1,
+      "gathering": 2,
+      "lumbering": 2
+    },
+    "drops": [],
+    "breeding_rank": 730,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Shroomer_Noct",
+    "local_icon": "public/300px-Shroomer_Noct_icon.png",
+    "combi_duplicate_priority": 6210000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "117",
+    "name": "Kikit",
+    "picture": "https://palworld.wiki.gg/images/thumb/d/dd/Kikit_icon.png/300px-Kikit_icon.png",
+    "element": [
+      "Ground"
+    ],
+    "work_suitability": {
+      "mining": 1
+    },
+    "drops": [],
+    "breeding_rank": 1125,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Kikit",
+    "local_icon": "public/300px-Kikit_icon.png",
+    "combi_duplicate_priority": 6200000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "118",
+    "name": "Sootseer",
+    "picture": "https://palworld.wiki.gg/images/thumb/c/c9/Sootseer_icon.png/300px-Sootseer_icon.png",
+    "element": [
+      "Dark",
+      "Fire"
+    ],
+    "work_suitability": {
+      "kindling": 3,
+      "handiwork": 2,
+      "gathering": 1,
+      "mining": 2,
+      "farming": 1
+    },
+    "drops": [],
+    "breeding_rank": 545,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Sootseer",
+    "local_icon": "public/300px-Sootseer_icon.png",
+    "combi_duplicate_priority": 6190000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "119",
+    "name": "Prixter",
+    "picture": "https://palworld.wiki.gg/images/thumb/3/33/Prixter_icon.png/300px-Prixter_icon.png",
+    "element": [
+      "Dark",
+      "Ground"
+    ],
+    "work_suitability": {
+      "gathering": 1,
+      "lumbering": 3,
+      "medicine_production": 1
+    },
+    "drops": [],
+    "breeding_rank": 355,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Prixter",
+    "local_icon": "public/300px-Prixter_icon.png",
+    "combi_duplicate_priority": 6180000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "120",
+    "name": "Knocklem",
+    "picture": "https://palworld.wiki.gg/images/thumb/e/e8/Knocklem_icon.png/300px-Knocklem_icon.png",
+    "element": [
+      "Ground"
+    ],
+    "work_suitability": {
+      "gathering": 3,
+      "mining": 4,
+      "transporting": 4
+    },
+    "drops": [],
+    "breeding_rank": 265,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Knocklem",
+    "local_icon": "public/300px-Knocklem_icon.png",
+    "combi_duplicate_priority": 6170000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "121",
+    "name": "Yakumo",
+    "picture": "https://palworld.wiki.gg/images/thumb/9/9a/Yakumo_icon.png/300px-Yakumo_icon.png",
+    "element": [
+      "Neutral"
+    ],
+    "work_suitability": {
+      "gathering": 2
+    },
+    "drops": [],
+    "breeding_rank": 945,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Yakumo",
+    "local_icon": "public/300px-Yakumo_icon.png",
+    "combi_duplicate_priority": 6160000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "122",
+    "name": "Dogen",
+    "picture": "https://palworld.wiki.gg/images/thumb/2/23/Dogen_icon.png/300px-Dogen_icon.png",
+    "element": [
+      "Neutral"
+    ],
+    "work_suitability": {
+      "handiwork": 3,
+      "gathering": 2,
+      "lumbering": 2,
+      "medicine_production": 1,
+      "transporting": 2
+    },
+    "drops": [],
+    "breeding_rank": 665,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Dogen",
+    "local_icon": "public/300px-Dogen_icon.png",
+    "combi_duplicate_priority": 6150000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "123",
+    "name": "Dazemu",
+    "picture": "https://palworld.wiki.gg/images/thumb/c/c5/Dazemu_icon.png/300px-Dazemu_icon.png",
+    "element": [
+      "Ground"
+    ],
+    "work_suitability": {
+      "gathering": 2
+    },
+    "drops": [],
+    "breeding_rank": 675,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Dazemu",
+    "local_icon": "public/300px-Dazemu_icon.png",
+    "combi_duplicate_priority": 6140000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "124",
+    "name": "Mimog",
+    "picture": "https://palworld.wiki.gg/images/thumb/9/98/Mimog_icon.png/300px-Mimog_icon.png",
+    "element": [
+      "Neutral"
+    ],
+    "work_suitability": {
+      "gathering": 1
+    },
+    "drops": [],
+    "breeding_rank": 1200,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Mimog",
+    "local_icon": "public/300px-Mimog_icon.png",
+    "combi_duplicate_priority": 6130000,
+    "isUnique": false,
+    "breed_self": true
+  },
+  {
+    "id": "125",
+    "name": "Xenovader",
+    "picture": "https://palworld.wiki.gg/images/thumb/2/29/Xenovader_icon.png/300px-Xenovader_icon.png",
+    "element": [
+      "Dark"
+    ],
+    "work_suitability": {
+      "lumbering": 2,
+      "transporting": 2
+    },
+    "drops": [],
+    "breeding_rank": 465,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Xenovader",
+    "local_icon": "public/300px-Xenovader_icon.png",
+    "combi_duplicate_priority": 6120000,
+    "isUnique": false,
+    "breed_self": true
+  },
+  {
+    "id": "126",
+    "name": "Xenogard",
+    "picture": "https://palworld.wiki.gg/images/thumb/7/79/Xenogard_icon.png/300px-Xenogard_icon.png",
+    "element": [
+      "Dragon"
+    ],
+    "work_suitability": {
+      "mining": 3
+    },
+    "drops": [],
+    "breeding_rank": 435,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Xenogard",
+    "local_icon": "public/300px-Xenogard_icon.png",
+    "combi_duplicate_priority": 6110000,
+    "isUnique": false,
+    "breed_self": true
+  },
+  {
+    "id": "127",
+    "name": "Xenolord",
+    "picture": "https://palworld.wiki.gg/images/thumb/f/fc/Xenolord_icon.png/300px-Xenolord_icon.png",
+    "element": [
+      "Dark",
+      "Dragon"
+    ],
+    "work_suitability": {
+      "gathering": 1
+    },
+    "drops": [],
+    "breeding_rank": 265,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Xenolord",
+    "local_icon": "public/300px-Xenolord_icon.png",
+    "combi_duplicate_priority": 6090000,
+    "isUnique": false,
+    "breed_self": true
+  },
+  {
+    "id": "128",
+    "name": "Nitemary",
+    "picture": "https://palworld.wiki.gg/images/thumb/0/00/Nitemary_icon.png/300px-Nitemary_icon.png",
+    "element": [
+      "Dark"
+    ],
+    "work_suitability": {
+      "handiwork": 3,
+      "transporting": 2
+    },
+    "drops": [],
+    "breeding_rank": 705,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Nitemary",
+    "local_icon": "public/300px-Nitemary_icon.png",
+    "combi_duplicate_priority": 6080000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "129",
+    "name": "Starryon",
+    "picture": "https://palworld.wiki.gg/images/thumb/5/53/Starryon_icon.png/300px-Starryon_icon.png",
+    "element": [
+      "Dark"
+    ],
+    "work_suitability": {
+      "gathering": 2
+    },
+    "drops": [],
+    "breeding_rank": 365,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Starryon",
+    "local_icon": "public/300px-Starryon_icon.png",
+    "combi_duplicate_priority": 6070000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "130",
+    "name": "Silvegis",
+    "picture": "https://palworld.wiki.gg/images/thumb/2/29/Silvegis_icon.png/300px-Silvegis_icon.png",
+    "element": [
+      "Dragon"
+    ],
+    "work_suitability": {
+      "lumbering": 3
+    },
+    "drops": [],
+    "breeding_rank": 215,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Silvegis",
+    "local_icon": "public/300px-Silvegis_icon.png",
+    "combi_duplicate_priority": 6060000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "131",
+    "name": "Smokie",
+    "picture": "https://palworld.wiki.gg/images/thumb/0/05/Smokie_icon.png/300px-Smokie_icon.png",
+    "element": [
+      "Dark"
+    ],
+    "work_suitability": {
+      "gathering": 2
+    },
+    "drops": [],
+    "breeding_rank": 1245,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Smokie",
+    "local_icon": "public/300px-Smokie_icon.png",
+    "combi_duplicate_priority": 6050000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "132",
+    "name": "Celesdir",
+    "picture": "https://palworld.wiki.gg/images/thumb/c/c7/Celesdir_icon.png/300px-Celesdir_icon.png",
+    "element": [
+      "Neutral"
+    ],
+    "work_suitability": {
+      "gathering": 1,
+      "lumbering": 4
+    },
+    "drops": [],
+    "breeding_rank": 815,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Celesdir",
+    "local_icon": "public/300px-Celesdir_icon.png",
+    "combi_duplicate_priority": 6040000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "133",
+    "name": "Omascul",
+    "picture": "https://palworld.wiki.gg/images/thumb/1/1f/Omascul_icon.png/300px-Omascul_icon.png",
+    "element": [
+      "Dark"
+    ],
+    "work_suitability": {
+      "gathering": 1
+    },
+    "drops": [],
+    "breeding_rank": 630,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Omascul",
+    "local_icon": "public/300px-Omascul_icon.png",
+    "combi_duplicate_priority": 6030000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "134",
+    "name": "Splatterina",
+    "picture": "https://palworld.wiki.gg/images/thumb/7/75/Splatterina_icon.png/300px-Splatterina_icon.png",
+    "element": [
+      "Dark"
+    ],
+    "work_suitability": {
+      "handiwork": 4,
+      "lumbering": 1,
+      "medicine_production": 3,
+      "transporting": 2
+    },
+    "drops": [],
+    "breeding_rank": 725,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Splatterina",
+    "local_icon": "public/300px-Splatterina_icon.png",
+    "combi_duplicate_priority": 5990000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "135",
+    "name": "Tarantriss",
+    "picture": "https://palworld.wiki.gg/images/thumb/9/94/Tarantriss_icon.png/300px-Tarantriss_icon.png",
+    "element": [
+      "Dark"
+    ],
+    "work_suitability": {
+      "handiwork": 2,
+      "gathering": 2,
+      "medicine_production": 2,
+      "transporting": 2
+    },
+    "drops": [],
+    "breeding_rank": 825,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Tarantriss",
+    "local_icon": "public/300px-Tarantriss_icon.png",
+    "combi_duplicate_priority": 5980000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "136",
+    "name": "Azurmane",
+    "picture": "https://palworld.wiki.gg/images/thumb/7/7f/Azurmane_icon.png/300px-Azurmane_icon.png",
+    "element": [
+      "Electric"
+    ],
+    "work_suitability": {
+      "generating_electricity": 4,
+      "gathering": 1
+    },
+    "drops": [],
+    "breeding_rank": 400,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Azurmane",
+    "local_icon": "public/300px-Azurmane_icon.png",
+    "combi_duplicate_priority": 5970000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "137",
+    "name": "Bastigor",
+    "picture": "https://palworld.wiki.gg/images/thumb/8/82/Bastigor_icon.png/300px-Bastigor_icon.png",
+    "element": [
+      "Ice"
+    ],
+    "work_suitability": {
+      "lumbering": 3,
+      "mining": 3,
+      "cooling": 4
+    },
+    "drops": [],
+    "breeding_rank": 170,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Bastigor",
+    "local_icon": "public/300px-Bastigor_icon.png",
+    "combi_duplicate_priority": 5340000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Frostallion",
+        "id": "110"
+      },
+      {
+        "name": "Anubis",
+        "id": "100"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "138",
+    "name": "Prunelia",
+    "picture": "https://palworld.wiki.gg/images/thumb/c/c8/Prunelia_icon.png/300px-Prunelia_icon.png",
+    "element": [
+      "Grass",
+      "Dark"
+    ],
+    "work_suitability": {
+      "planting": 3,
+      "handiwork": 1,
+      "gathering": 2,
+      "medicine_production": 3,
+      "transporting": 1
+    },
+    "drops": [],
+    "breeding_rank": 755,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Prunelia",
+    "local_icon": "public/300px-Prunelia_icon.png",
+    "combi_duplicate_priority": 9790000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "139",
+    "name": "Nyafia",
+    "picture": "https://palworld.wiki.gg/images/thumb/0/09/Nyafia_icon.png/300px-Nyafia_icon.png",
+    "element": [
+      "Dark"
+    ],
+    "work_suitability": {
+      "handiwork": 3,
+      "gathering": 2,
+      "lumbering": 2,
+      "transporting": 2
+    },
+    "drops": [],
+    "breeding_rank": 645,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Nyafia",
+    "local_icon": "public/300px-Nyafia_icon.png",
+    "combi_duplicate_priority": 9800000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "140",
+    "name": "Gildane",
+    "picture": "https://palworld.wiki.gg/images/thumb/6/6d/Gildane_icon.png/300px-Gildane_icon.png",
+    "element": [
+      "Ground"
+    ],
+    "work_suitability": {
+      "gathering": 2
+    },
+    "drops": [],
+    "breeding_rank": 505,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Gildane",
+    "local_icon": "public/300px-Gildane_icon.png",
+    "combi_duplicate_priority": 7830000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "141",
+    "name": "Herbil",
+    "picture": "https://palworld.wiki.gg/images/thumb/c/c6/Herbil_icon.png/300px-Herbil_icon.png",
+    "element": [
+      "Grass",
+      "Neutral"
+    ],
+    "work_suitability": {
+      "planting": 2,
+      "gathering": 1,
+      "transporting": 1
+    },
+    "drops": [],
+    "breeding_rank": 1445,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Herbil",
+    "local_icon": "public/300px-Herbil_icon.png",
+    "combi_duplicate_priority": 144500,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "142",
+    "name": "Icelyn",
+    "picture": "https://palworld.wiki.gg/images/thumb/3/3c/Icelyn_icon.png/300px-Icelyn_icon.png",
+    "element": [
+      "Ice"
+    ],
+    "work_suitability": {
+      "handiwork": 2,
+      "medicine_production": 2,
+      "cooling": 3,
+      "transporting": 1
+    },
+    "drops": [],
+    "breeding_rank": 605,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Icelyn",
+    "local_icon": "public/300px-Icelyn_icon.png",
+    "combi_duplicate_priority": 60500,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "143",
+    "name": "Frostplume",
+    "picture": "https://palworld.wiki.gg/images/thumb/e/ee/Frostplume_icon.png/300px-Frostplume_icon.png",
+    "element": [
+      "Ice"
+    ],
+    "work_suitability": {
+      "handiwork": 1,
+      "cooling": 2
+    },
+    "drops": [],
+    "breeding_rank": 655,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Frostplume",
+    "local_icon": "public/300px-Frostplume_icon.png",
+    "combi_duplicate_priority": 65500,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "144",
+    "name": "Palumba",
+    "picture": "https://palworld.wiki.gg/images/thumb/c/c7/Palumba_icon.png/300px-Palumba_icon.png",
+    "element": [
+      "Grass"
+    ],
+    "work_suitability": {
+      "planting": 2,
+      "gathering": 2,
+      "mining": 3
+    },
+    "drops": [],
+    "breeding_rank": 455,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Palumba",
+    "local_icon": "public/300px-Palumba_icon.png",
+    "combi_duplicate_priority": 45500,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "145",
+    "name": "Braloha",
+    "picture": "https://palworld.wiki.gg/images/thumb/f/fe/Braloha_icon.png/300px-Braloha_icon.png",
+    "element": [
+      "Grass",
+      "Ground"
+    ],
+    "work_suitability": {
+      "planting": 4,
+      "gathering": 4,
+      "mining": 2
+    },
+    "drops": [],
+    "breeding_rank": 335,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Braloha",
+    "local_icon": "public/300px-Braloha_icon.png",
+    "combi_duplicate_priority": 33500,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "146",
+    "name": "Munchill",
+    "picture": "https://palworld.wiki.gg/images/thumb/f/f3/Munchill_icon.png/300px-Munchill_icon.png",
+    "element": [
+      "Ice",
+      "Water"
+    ],
+    "work_suitability": {
+      "watering": 1,
+      "cooling": 2,
+      "transporting": 1
+    },
+    "drops": [],
+    "breeding_rank": 1335,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Munchill",
+    "local_icon": "public/300px-Munchill_icon.png",
+    "combi_duplicate_priority": 133500,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "147",
+    "name": "Polapup",
+    "picture": "https://palworld.wiki.gg/images/thumb/4/49/Polapup_icon.png/300px-Polapup_icon.png",
+    "element": [
+      "Ice",
+      "Water"
+    ],
+    "work_suitability": {
+      "watering": 2,
+      "cooling": 3
+    },
+    "drops": [],
+    "breeding_rank": 745,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Polapup",
+    "local_icon": "public/300px-Polapup_icon.png",
+    "combi_duplicate_priority": 74500,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "148",
+    "name": "Turtacle",
+    "picture": "https://palworld.wiki.gg/images/thumb/7/74/Turtacle_icon.png/300px-Turtacle_icon.png",
+    "element": [
+      "Water"
+    ],
+    "work_suitability": {
+      "watering": 2,
+      "mining": 1,
+      "transporting": 1
+    },
+    "drops": [],
+    "breeding_rank": 1105,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Turtacle",
+    "local_icon": "public/300px-Turtacle_icon.png",
+    "combi_duplicate_priority": 7810000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "148B",
+    "name": "Turtacle Terra",
+    "picture": "https://palworld.wiki.gg/images/thumb/7/77/Turtacle_Terra_icon.png/300px-Turtacle_Terra_icon.png",
+    "element": [
+      "Water",
+      "Ground"
+    ],
+    "work_suitability": {
+      "watering": 2,
+      "mining": 1,
+      "transporting": 1
+    },
+    "drops": [],
+    "breeding_rank": 1065,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Turtacle_Terra",
+    "local_icon": "public/300px-Turtacle_Terra_icon.png",
+    "combi_duplicate_priority": 577,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Turtacle",
+        "id": "148"
+      },
+      {
+        "name": "Digtoise",
+        "id": "067"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "149",
+    "name": "Jellroy",
+    "picture": "https://palworld.wiki.gg/images/thumb/2/2a/Jellroy_icon.png/300px-Jellroy_icon.png",
+    "element": [
+      "Water",
+      "Dark"
+    ],
+    "work_suitability": {
+      "watering": 2,
+      "handiwork": 1,
+      "medicine_production": 1,
+      "transporting": 1
+    },
+    "drops": [],
+    "breeding_rank": 1395,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Jellroy",
+    "local_icon": "public/300px-Jellroy_icon.png",
+    "combi_duplicate_priority": 139500,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "150",
+    "name": "Jelliette",
+    "picture": "https://palworld.wiki.gg/images/thumb/d/dd/Jelliette_icon.png/300px-Jelliette_icon.png",
+    "element": [
+      "Water"
+    ],
+    "work_suitability": {
+      "watering": 2,
+      "handiwork": 1,
+      "transporting": 1
+    },
+    "drops": [],
+    "breeding_rank": 1385,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Jelliette",
+    "local_icon": "public/300px-Jelliette_icon.png",
+    "combi_duplicate_priority": 5950000,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "151",
+    "name": "Gloopie",
+    "picture": "https://palworld.wiki.gg/images/thumb/7/7a/Gloopie_icon.png/300px-Gloopie_icon.png",
+    "element": [
+      "Water",
+      "Dark"
+    ],
+    "work_suitability": {
+      "watering": 2,
+      "handiwork": 2,
+      "transporting": 2
+    },
+    "drops": [],
+    "breeding_rank": 1195,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Gloopie",
+    "local_icon": "public/300px-Gloopie_icon.png",
+    "combi_duplicate_priority": 119500,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "152",
+    "name": "Finsider",
+    "picture": "https://palworld.wiki.gg/images/thumb/8/8a/Finsider_icon.png/300px-Finsider_icon.png",
+    "element": [
+      "Water"
+    ],
+    "work_suitability": {
+      "watering": 2,
+      "transporting": 1
+    },
+    "drops": [],
+    "breeding_rank": 1295,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Finsider",
+    "local_icon": "public/300px-Finsider_icon.png",
+    "combi_duplicate_priority": 129500,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "152B",
+    "name": "Finsider Ignis",
+    "picture": "https://palworld.wiki.gg/images/thumb/c/ca/Finsider_Ignis_icon.png/300px-Finsider_Ignis_icon.png",
+    "element": [
+      "Water",
+      "Fire"
+    ],
+    "work_suitability": {
+      "kindling": 2,
+      "watering": 2,
+      "transporting": 1
+    },
+    "drops": [],
+    "breeding_rank": 1255,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Finsider_Ignis",
+    "local_icon": "public/300px-Finsider_Ignis_icon.png",
+    "combi_duplicate_priority": 581,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Finsider",
+        "id": "152"
+      },
+      {
+        "name": "Gobfin Ignis",
+        "id": "031B"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "153",
+    "name": "Ghangler",
+    "picture": "https://palworld.wiki.gg/images/thumb/3/34/Ghangler_icon.png/300px-Ghangler_icon.png",
+    "element": [
+      "Dark",
+      "Water"
+    ],
+    "work_suitability": {
+      "watering": 4,
+      "transporting": 2
+    },
+    "drops": [],
+    "breeding_rank": 525,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Ghangler",
+    "local_icon": "public/300px-Ghangler_icon.png",
+    "combi_duplicate_priority": 52500,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "153B",
+    "name": "Ghangler Ignis",
+    "picture": "https://palworld.wiki.gg/images/thumb/9/9d/Ghangler_Ignis_icon.png/300px-Ghangler_Ignis_icon.png",
+    "element": [
+      "Fire",
+      "Water"
+    ],
+    "work_suitability": {
+      "kindling": 3,
+      "watering": 4,
+      "transporting": 2
+    },
+    "drops": [],
+    "breeding_rank": 505,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Ghangler_Ignis",
+    "local_icon": "public/300px-Ghangler_Ignis_icon.png",
+    "combi_duplicate_priority": 50500,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Ghangler",
+        "id": "153"
+      },
+      {
+        "name": "Sootseer",
+        "id": "118"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "154",
+    "name": "Whalaska",
+    "picture": "https://palworld.wiki.gg/images/thumb/b/bc/Whalaska_icon.png/300px-Whalaska_icon.png",
+    "element": [
+      "Ice",
+      "Water"
+    ],
+    "work_suitability": {
+      "watering": 3,
+      "cooling": 4
+    },
+    "drops": [],
+    "breeding_rank": 445,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Whalaska",
+    "local_icon": "public/300px-Whalaska_icon.png",
+    "combi_duplicate_priority": 44500,
+    "isUnique": false,
+    "breed_self": false
+  },
+  {
+    "id": "154B",
+    "name": "Whalaska Ignis",
+    "picture": "https://palworld.wiki.gg/images/thumb/a/ae/Whalaska_Ignis_icon.png/300px-Whalaska_Ignis_icon.png",
+    "element": [
+      "Ice",
+      "Fire"
+    ],
+    "work_suitability": {
+      "kindling": 3,
+      "cooling": 4
+    },
+    "drops": [],
+    "breeding_rank": 430,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Whalaska_Ignis",
+    "local_icon": "public/300px-Whalaska_Ignis_icon.png",
+    "combi_duplicate_priority": 43000,
+    "isUnique": true,
+    "breed_unique": [
+      {
+        "name": "Whalaska",
+        "id": "154"
+      },
+      {
+        "name": "Chillet Ignis",
+        "id": "055B"
+      }
+    ],
+    "breed_self": false
+  },
+  {
+    "id": "155",
+    "name": "Neptilius",
+    "picture": "https://palworld.wiki.gg/images/thumb/8/89/Neptilius_icon.png/300px-Neptilius_icon.png",
+    "element": [
+      "Water"
+    ],
+    "work_suitability": {
+      "watering": 4
+    },
+    "drops": [],
+    "breeding_rank": 90,
+    "wiki_url": "https://palworld.wiki.gg/wiki/Neptilius",
+    "local_icon": "public/300px-Neptilius_icon.png",
+    "combi_duplicate_priority": 9000,
+    "isUnique": false,
+    "breed_self": true
+  }
+]
