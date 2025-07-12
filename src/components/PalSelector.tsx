@@ -23,6 +23,27 @@ export const PalSelector = ({
 }: PalSelectorProps) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
+  const [listWidth, setListWidth] = useState(452);
+
+  // Atualizar largura da lista quando o modal abre
+  useEffect(() => {
+    if (isModalOpen) {
+      const updateWidth = () => {
+        const modal = document.querySelector(`.${styles.modal}`) as HTMLElement;
+        if (modal) {
+          const modalWidth = modal.offsetWidth;
+          const newWidth = modalWidth - 48; // Subtrair padding lateral (24px * 2)
+          setListWidth(newWidth);
+        }
+      };
+
+      // Aguardar o modal ser renderizado
+      setTimeout(updateWidth, 10);
+      window.addEventListener("resize", updateWidth);
+
+      return () => window.removeEventListener("resize", updateWidth);
+    }
+  }, [isModalOpen]);
 
   // Previne scroll do body quando modal está aberto
   useEffect(() => {
@@ -79,13 +100,19 @@ export const PalSelector = ({
   };
 
   // Função para renderizar cada item da lista virtualizada
-  const renderPalItem = ({ index, style }: { index: number; style: React.CSSProperties }) => {
+  const renderPalItem = ({
+    index,
+    style,
+  }: {
+    index: number;
+    style: React.CSSProperties;
+  }) => {
     const pal = filteredPals[index];
-    
+
     return (
-      <div style={style}>
+      <div style={{ ...style, paddingLeft: 0, paddingRight: 0 }}>
         <button
-          key={pal.id}
+          key={pal.name}
           className={`${styles.palItem} ${
             selectedPal?.id === pal.id ? styles.selected : ""
           }`}
@@ -106,9 +133,7 @@ export const PalSelector = ({
               {pal.name}
             </div>
             {showRanking && pal.breedingRank && (
-              <div className={styles.palItemRank}>
-                Rank: {pal.breedingRank}
-              </div>
+              <div className={styles.palItemRank}>Rank: {pal.breedingRank}</div>
             )}
             <div className={styles.palItemElements}>
               {pal.elements.map((element) => (
@@ -201,7 +226,7 @@ export const PalSelector = ({
                     rowCount={filteredPals.length}
                     rowHeight={80} // Altura de cada item
                     rowRenderer={renderPalItem}
-                    width={600} // Largura em pixels
+                    width={listWidth} // Largura dinâmica
                     className={styles.virtualizedList}
                   />
                 ) : (

@@ -347,15 +347,20 @@
 /* Estilos para a lista virtualizada */
 .virtualizedList {
   outline: none;
+  width: 100% !important;
+  /* Forçar largura total */
 }
 
 .virtualizedList .ReactVirtualized__List {
   outline: none;
+  width: 100% !important;
+  /* Forçar largura total */
 }
 
 /* Ajustar o container da lista para acomodar a lista virtualizada */
 .palList {
-  padding: 16px 20px;
-  overflow: hidden;
-  /* Esconder scroll pois react-virtualized gerencia isso */
+  flex: 1;
+  overflow-y: auto;
+  padding: 0 24px 20px;
+  /* Manter padding original simétrico */
 }
