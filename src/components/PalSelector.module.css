@@ -343,3 +343,19 @@
     height: 50px;
   }
 }
+
+/* Estilos para a lista virtualizada */
+.virtualizedList {
+  outline: none;
+}
+
+.virtualizedList .ReactVirtualized__List {
+  outline: none;
+}
+
+/* Ajustar o container da lista para acomodar a lista virtualizada */
+.palList {
+  padding: 16px 20px;
+  overflow: hidden;
+  /* Esconder scroll pois react-virtualized gerencia isso */
+}

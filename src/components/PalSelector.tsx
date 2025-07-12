@@ -1,5 +1,7 @@
 import { useState, useMemo, useEffect } from "react";
 import { createPortal } from "react-dom";
+import { List } from "react-virtualized";
+import "react-virtualized/styles.css"; // Estilos CSS necessários
 import type { PalData } from "../types/PalData";
 import { getElementIcon } from "../utils/iconHelpers";
 import styles from "./PalSelector.module.css";
@@ -76,6 +78,56 @@ export const PalSelector = ({
     return "";
   };
 
+  // Função para renderizar cada item da lista virtualizada
+  const renderPalItem = ({ index, style }: { index: number; style: React.CSSProperties }) => {
+    const pal = filteredPals[index];
+    
+    return (
+      <div style={style}>
+        <button
+          key={pal.id}
+          className={`${styles.palItem} ${
+            selectedPal?.id === pal.id ? styles.selected : ""
+          }`}
+          onClick={() => handlePalSelect(pal)}
+        >
+          <img
+            src={pal.image || "/placeholder-pal.png"}
+            alt={pal.name}
+            className={styles.palItemImage}
+            onError={(e) => {
+              const target = e.target as HTMLImageElement;
+              target.src = "/placeholder-pal.png";
+            }}
+          />
+          <div className={styles.palItemDetails}>
+            <div className={styles.palItemName}>
+              {getPalPrefix(pal)}
+              {pal.name}
+            </div>
+            {showRanking && pal.breedingRank && (
+              <div className={styles.palItemRank}>
+                Rank: {pal.breedingRank}
+              </div>
+            )}
+            <div className={styles.palItemElements}>
+              {pal.elements.map((element) => (
+                <span key={element} className={styles.elementTag}>
+                  <img
+                    src={getElementIcon(element)}
+                    alt={element}
+                    className={styles.elementIcon}
+                  />
+                  {element}
+                </span>
+              ))}
+            </div>
+          </div>
+        </button>
+      </div>
+    );
+  };
+
   return (
     <div className={styles.selectorContainer}>
       <button
@@ -143,50 +195,16 @@ export const PalSelector = ({
                   </div>
                 </button>
 
-                {filteredPals.map((pal) => (
-                  <button
-                    key={pal.id}
-                    className={`${styles.palItem} ${
-                      selectedPal?.id === pal.id ? styles.selected : ""
-                    }`}
-                    onClick={() => handlePalSelect(pal)}
-                  >
-                    <img
-                      src={pal.image || "/placeholder-pal.png"}
-                      alt={pal.name}
-                      className={styles.palItemImage}
-                      onError={(e) => {
-                        const target = e.target as HTMLImageElement;
-                        target.src = "/placeholder-pal.png";
-                      }}
-                    />
-                    <div className={styles.palItemDetails}>
-                      <div className={styles.palItemName}>
-                        {getPalPrefix(pal)}
-                        {pal.name}
-                      </div>
-                      {showRanking && pal.breedingRank && (
-                        <div className={styles.palItemRank}>
-                          Rank: {pal.breedingRank}
-                        </div>
-                      )}
-                      <div className={styles.palItemElements}>
-                        {pal.elements.map((element) => (
-                          <span key={element} className={styles.elementTag}>
-                            <img
-                              src={getElementIcon(element)}
-                              alt={element}
-                              className={styles.elementIcon}
-                            />
-                            {element}
-                          </span>
-                        ))}
-                      </div>
-                    </div>
-                  </button>
-                ))}
-
-                {filteredPals.length === 0 && (
+                {filteredPals.length > 0 ? (
+                  <List
+                    height={400} // Altura fixa da lista
+                    rowCount={filteredPals.length}
+                    rowHeight={80} // Altura de cada item
+                    rowRenderer={renderPalItem}
+                    width={600} // Largura em pixels
+                    className={styles.virtualizedList}
+                  />
+                ) : (
                   <div className={styles.noPalsFound}>
                     Nenhum Pal encontrado para "{searchTerm}"
                   </div>
