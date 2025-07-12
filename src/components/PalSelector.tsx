@@ -206,7 +206,6 @@ export const PalSelector = ({
                   placeholder="Pesquisar Pals..."
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
-                  autoFocus
                 />
               </div>
 
