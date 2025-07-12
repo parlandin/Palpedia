@@ -19,7 +19,7 @@ export const useTreeBreedingCalculator = (allPals: PalData[]) => {
     if (!selectedBasePal || !selectedTargetPal) {
       return;
     }
-
+    setError(null);
     setCalculating(true);
 
     try {
